@@ -5,6 +5,34 @@ const home = () => {
   return (
     <div>
 
+    {/* Masthead */}
+    <header class="masthead">
+      {/* Next doesn't like the style tag in the below div.  */}
+      {/* <div id="bg-vid-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+        <iframe 
+          id="bg-video" 
+          src="https://player.vimeo.com/video/291648067?background=1" 
+          frameborder="0"
+          allow="autoplay;" 
+          allowfullscreen
+        >
+        </iframe>
+      </div> */}
+      <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+          <div class="col-lg-10 align-self-end">
+            <h1 class="text-uppercase text-white font-weight-bold">Low Carbon Living</h1>
+            <hr class="divider my-4" />
+          </div>
+          <div class="col-lg-8 align-self-baseline">
+            <p class="text-white-75 font-weight-light mb-5">Act against Climate Change</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#businesses">Request a demo</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+      {/* About */}
       <section class="page-section bg-primary" id="climate-change">
         <div class="container">
           <div class="row justify-content-center">
