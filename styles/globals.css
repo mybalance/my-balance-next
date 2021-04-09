@@ -412,10 +412,16 @@ iframe#bg-video {
 
 #bg-vid-container {
   background: green;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: -1;
 }
 /* Return to this once the assets are in place.  */
 /* url(../assets/img/BG_Vid_Placeholder.png) */
-
+/* In place of the style tag in the markup, I've added the styles here. */
 
 .team {
   position: relative;

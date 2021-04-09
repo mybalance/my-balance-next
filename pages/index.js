@@ -8,7 +8,11 @@ const home = () => {
     {/* Masthead */}
     <header class="masthead">
       {/* Next doesn't like the style tag in the below div.  */}
-      {/* <div id="bg-vid-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;">
+      <div 
+        id="bg-vid-container" 
+        // style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"
+        // I've moved these stlyes to the globals.css file, line 413. 
+      >
         <iframe 
           id="bg-video" 
           src="https://player.vimeo.com/video/291648067?background=1" 
@@ -17,7 +21,7 @@ const home = () => {
           allowfullscreen
         >
         </iframe>
-      </div> */}
+      </div>
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
           <div class="col-lg-10 align-self-end">
