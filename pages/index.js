@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+// import Image from "next/image";
 
 const home = () => {
   return (
@@ -50,12 +51,15 @@ const home = () => {
           </div>
           <div class="col-lg-6 text-center my-4">
             <video width="270" height="546" controls>
-              <source src="/assets/vid/MyBalanceRunThrough.mp4" type="video/mp4"/>
+              <source src="/public/MyBalanceRunThrough.mp4" type="video/mp4"/> 
             </video>
           </div>
         </div>
       </div>
     </section>
+
+    {/* The video tag just above doesn't play the video, and the first image that I've tried to load in the team
+    section is on line 223. */}    
 
     {/* Step-by-step section */}
     <section class="page-section" id="about">
@@ -216,7 +220,10 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/assets/img/Sam.JPG" alt=""></img>
+                <img class="w-100" src="/public/Sam.jpg" alt=""></img>
+                {/* <Image src="/Sam.jpg" layout="fill" /> */}
+
+                {/* Trying to get the images to behave here!  */}
               </div>
               <div class="team-content">
                 <div class=" team-content-inner">
@@ -236,7 +243,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/assets/img/Steve.jpg" alt=""></img>
+                <img class="w-100" src=".public/Steve.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class="team-content-inner">
