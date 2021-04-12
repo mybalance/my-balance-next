@@ -220,7 +220,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/public/Sam.jpg" alt=""></img>
+                <img class="w-100" src="/assets/img/Sam.jpg" alt=""></img>
                 {/* <Image src="/Sam.jpg" layout="fill" /> */}
 
                 {/* Trying to get the images to behave here!  */}
@@ -243,7 +243,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src=".public/Steve.jpg" alt=""></img>
+                <img class="w-100" src="/assets/img/Steve.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class="team-content-inner">
