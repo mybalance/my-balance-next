@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 // import Image from "next/image";
+// import "feather-icons";
 
 const home = () => {
   return (
@@ -22,6 +23,7 @@ const home = () => {
           allowfullscreen
         >
         </iframe>
+        {/* This would look better if the video were 100% of the screen. */}
       </div>
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
@@ -49,17 +51,15 @@ const home = () => {
               MyBalance has been designed to help you take those steps to live a low or zero carbon life!</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Get Started!</a>
           </div>
-          <div class="col-lg-6 text-center my-4">
-            <video width="270" height="546" controls>
-              <source src="/public/MyBalanceRunThrough.mp4" type="video/mp4"/> 
+          <div class="col-lg-6 text-center my-4 video-border">
+            <video width="270" height="546" controls class="video-border">
+              <source src="/MyBalanceRunThrough.mp4" type="video/mp4"/> 
+              {/* Have a look at the border styles. Overflow hidden? */}
             </video>
           </div>
         </div>
       </div>
-    </section>
-
-    {/* The video tag just above doesn't play the video, and the first image that I've tried to load in the team
-    section is on line 223. */}    
+    </section>    
 
     {/* Step-by-step section */}
     <section class="page-section" id="about">
@@ -81,14 +81,16 @@ const home = () => {
 
           <div class="col-sm-6 order-md-2">
             <div class="text-center mt-5 mb-5">
-              <img src="../assets/img/screenshots/SA_1.png" class="mockup-image SA-slides"
+              <img src="/SA_1.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
-              <img src="../assets/img/screenshots/SA_2.png" class="mockup-image SA-slides"
+
+              {/* These images need to cycle. Come back to this.    */}
+              {/* <img src="/SA_2.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
-              <img src="../assets/img/screenshots/SA_3.png" class="mockup-image SA-slides"
+              <img src="/SA_3.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
-              <img src="../assets/img/screenshots/SA_4.png" class="mockup-image SA-slides"
-                alt="Self Assessment"></img>
+              <img src="/SA_4.png" class="mockup-image SA-slides"
+                alt="Self Assessment"></img> */}
               {/* Added closing img tags above. */}
             </div>
           </div>
@@ -114,7 +116,7 @@ const home = () => {
           </div>
           <div class="col-sm-6 order-md-1">
             <div class="text-center mt-5 mb-5">
-              <img src="../assets/img/screenshots/ActNow_Options.png" class="mockup-image"
+              <img src="/ActNow_Options.png" class="mockup-image"
                 alt="Active Line Graph"></img>
             </div>
           </div>
@@ -140,7 +142,7 @@ const home = () => {
           </div>
           <div class="col-sm-6 order-md-2">
             <div class="text-center mt-5 mb-5">
-              <img src="../assets/img/screenshots/Offsetting_Choices.png" class="mockup-image"
+              <img src="/Offsetting_Choices.png" class="mockup-image"
                 alt="SA Flights"></img>
             </div>
           </div>
@@ -166,7 +168,7 @@ const home = () => {
           </div>
           <div class="col-sm-6 order-md-1">
             <div class="text-center mt-5 mb-5">
-              <img src="../assets/img/screenshots/Active_LineGraph.png" class="mockup-image"
+              <img src="/Active_LineGraph.png" class="mockup-image"
                 alt="Active Line Graph"></img>
             </div>
           </div>
@@ -220,10 +222,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/public/Sam.jpg" alt=""></img>
-                {/* <Image src="/Sam.jpg" layout="fill" /> */}
-
-                {/* Trying to get the images to behave here!  */}
+                <img class="w-100" src="/Sam.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class=" team-content-inner">
@@ -243,7 +242,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src=".public/Steve.jpg" alt=""></img>
+                <img class="w-100" src="/Steve.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class="team-content-inner">
@@ -263,7 +262,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Raj.jpg" alt=""></img>
+                  <img class="w-100" src="/Raj.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -283,7 +282,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Jay.jpg" alt=""></img>
+                  <img class="w-100" src="/Jay.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -303,7 +302,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Leon.jpg" alt=""></img>
+                  <img class="w-100" src="/Leon.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -314,7 +313,7 @@ const home = () => {
                       </div>
                     </div>
                     <div 
-                      class="team-contact mt-2" 
+                      class="team-contact mt-2 font-smaller" 
                       // style="font-size: 80%;"
                     >
                       Leon is a serial entrepreneur and software specialist, developing software products for over 30 years. After graduating in science from Cambridge University (Natural Sciences) Leon went on to found several businesses and create many software applications, with a focus on business productivity and automation. He loves to always be learning, and is passionate about technology, nature, sustainability and human potential.
@@ -327,6 +326,54 @@ const home = () => {
         </div>
     
     </section>
+
+    {/* Spacing section */}
+    <section class="page-section">
+    </section>
+
+    {/* Contact section */}
+    <section class="page-section bg-primary" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h2 class="mt-0 text-white">Contact us!</h2>
+            <hr class="divider my-4" />
+            <p class="text-white-50 mb-5">Got any questions or queries?</p>
+          </div>
+        </div>
+
+        {/* Todo: Bring in the SVG icons in the below section. */}
+        <div class="row">
+          <div class="col-sm-4 mr-auto mb-5 text-center">
+            {/* <svg class="feather">
+              <use href="/feather-sprite.svg"/>
+            </svg> */}
+            <i data-feather="mail" class="text-white"></i>
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white" href="mailto:hello@mybalance.earth">hello@mybalance.earth</a>
+          </div>
+          <div class="col-sm-4 mr-auto mb-5 text-center">
+            <i data-feather="twitter" class="text-white"></i>
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white" href="https://www.twitter.com/mycarbonbalance/">@mycarbonbalance</a>
+          </div>
+          <div class="col-sm-4 mr-auto mb-5 text-center">
+            <i data-feather="instagram" class="text-white"></i>
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance">@mycarbonbalance</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* Footer section */}
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-muted">Copyright © 2021 - Carbon Innovations</div>
+        <div class="small text-center text-muted"><a href="./terms">Ts & Cs</a></div>
+        <div class="small text-center text-muted"><a href="./privacy">Privacy Policy</a></div>
+      </div>
+    </footer>
 
     {/* This div closes the component. */}
     </div>

@@ -423,6 +423,17 @@ iframe#bg-video {
 /* url(../assets/img/BG_Vid_Placeholder.png) */
 /* In place of the style tag in the markup, I've added the styles here. */
 
+/* I added this class to Leon's section to remove the inline style tag. */
+.font-smaller {
+  font-size: 80%;
+}
+
+.video-border {
+  overflow: hidden;
+  background-color: transparent;
+  /* Neither of these styles fix the background issue. */
+}
+
 .team {
   position: relative;
   margin-bottom: 20px;
