@@ -1,11 +1,28 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-// import Image from "next/image";
-// import "feather-icons";
+// import Head from 'next/head';
+// import styles from '../styles/Home.module.css';
+import { Mail, Twitter, Instagram } from "react-feather";
 
 const home = () => {
   return (
     <div>
+    
+    {/* Navigation */}
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">MyBalance</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+          data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#businesses">For Businesses</a>
+            </li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     {/* Masthead */}
     <header class="masthead">
@@ -53,7 +70,7 @@ const home = () => {
           </div>
           <div class="col-lg-6 text-center my-4 video-border">
             <video width="270" height="546" controls class="video-border">
-              <source src="/MyBalanceRunThrough.mp4" type="video/mp4"/> 
+              <source src="/assets/vid/MyBalanceRunThrough.mp4" type="video/mp4"/> 
               {/* Have a look at the border styles. Overflow hidden? */}
             </video>
           </div>
@@ -222,7 +239,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/Sam.jpg" alt=""></img>
+                <img class="w-100" src="/assets/img/Sam.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class=" team-content-inner">
@@ -242,7 +259,7 @@ const home = () => {
           <div class="col-lg-4 col-md-6">
             <div class="team">
               <div class="team-avatar">
-                <img class="w-100" src="/Steve.jpg" alt=""></img>
+                <img class="w-100" src="/assets/img/Steve.jpg" alt=""></img>
               </div>
               <div class="team-content">
                 <div class="team-content-inner">
@@ -262,7 +279,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/Raj.jpg" alt=""></img>
+                  <img class="w-100" src="/assets/img/Raj.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -282,7 +299,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/Jay.jpg" alt=""></img>
+                  <img class="w-100" src="/assets/img/Jay.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -302,7 +319,7 @@ const home = () => {
             <div class="col-lg-4 col-md-6">
               <div class="team">
                 <div class="team-avatar">
-                  <img class="w-100" src="/Leon.jpg" alt=""></img>
+                  <img class="w-100" src="/assets/img/Leon.jpg" alt=""></img>
                 </div>
                 <div class="team-content">
                   <div class=" team-content-inner">
@@ -342,25 +359,22 @@ const home = () => {
           </div>
         </div>
 
-        {/* Todo: Bring in the SVG icons in the below section. */}
         <div class="row">
           <div class="col-sm-4 mr-auto mb-5 text-center">
-            {/* <svg class="feather">
-              <use href="/feather-sprite.svg"/>
-            </svg> */}
-            <i data-feather="mail" class="text-white"></i>
+            <Mail color="white" /> 
+            {/* Pass in size as a prop to change the size. For example: size={30}  */}
             {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-            <a class="d-block text-white" href="mailto:hello@mybalance.earth">hello@mybalance.earth</a>
+            <a class="d-block text-white" href="mailto:hello@mybalance.earth" target="_blank">hello@mybalance.earth</a>
           </div>
           <div class="col-sm-4 mr-auto mb-5 text-center">
-            <i data-feather="twitter" class="text-white"></i>
+            <Twitter color="white" />
             {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-            <a class="d-block text-white" href="https://www.twitter.com/mycarbonbalance/">@mycarbonbalance</a>
+            <a class="d-block text-white" href="https://www.twitter.com/mycarbonbalance/" target="_blank">@mycarbonbalance</a>
           </div>
           <div class="col-sm-4 mr-auto mb-5 text-center">
-            <i data-feather="instagram" class="text-white"></i>
+            <Instagram color="white" />
             {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-            <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance">@mycarbonbalance</a>
+            <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance" target="_blank">@mycarbonbalance</a>
           </div>
         </div>
       </div>
