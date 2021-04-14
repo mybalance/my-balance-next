@@ -16,8 +16,7 @@ const home = () => {
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#businesses">For Businesses</a>
-            </li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#businesses">For Businesses</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -40,7 +39,6 @@ const home = () => {
           allowfullscreen
         >
         </iframe>
-        {/* This would look better if the video were 100% of the screen. */}
       </div>
       <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
@@ -102,12 +100,12 @@ const home = () => {
                 alt="Self Assessment"></img>
 
               {/* These images need to cycle. Come back to this.    */}
-              {/* <img src="/SA_2.png" class="mockup-image SA-slides"
+              <img src="/SA_2.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
               <img src="/SA_3.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
               <img src="/SA_4.png" class="mockup-image SA-slides"
-                alt="Self Assessment"></img> */}
+                alt="Self Assessment"></img>
               {/* Added closing img tags above. */}
             </div>
           </div>
@@ -388,6 +386,17 @@ const home = () => {
         <div class="small text-center text-muted"><a href="./privacy">Privacy Policy</a></div>
       </div>
     </footer>
+
+    {/* Bootstrap core JS */}
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    {/* Third party plugin JS */}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    
+    <script src="js/scripts.js"></script>
+    <script src="js/carousel.js"></script>
 
     {/* This div closes the component. */}
     </div>
