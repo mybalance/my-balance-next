@@ -98,8 +98,6 @@ const home = () => {
             <div class="text-center mt-5 mb-5">
               <img src="/SA_1.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
-
-              {/* These images need to cycle. Come back to this.    */}
               <img src="/SA_2.png" class="mockup-image SA-slides"
                 alt="Self Assessment"></img>
               <img src="/SA_3.png" class="mockup-image SA-slides"
