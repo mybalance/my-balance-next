@@ -1,10 +1,15 @@
-// import Head from 'next/head';
-// import styles from '../styles/Home.module.css';
+import Head from 'next/head';
 import { Mail, Twitter, Instagram } from "react-feather";
 
 const home = () => {
   return (
     <div>
+
+    <Head>
+      <title>MyBalance | Low carbon living</title>
+      <link rel="shortcut icon" href="/static/favicon.ico" />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
     
     {/* Navigation */}
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
