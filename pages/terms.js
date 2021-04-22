@@ -79,7 +79,7 @@ const terms = () => {
         {/* Footer */}
         <footer class="bg-light py-5">
             <div class="container">
-                <div class="small text-center text-muted">Copyright © 2020 - Carbon Innovations</div>
+                <div class="small text-center text-muted">Copyright © 2021 - Carbon Innovations</div>
                 <div class="small text-center text-muted"><a href="../terms">Ts & Cs</a></div>
                 <div class="small text-center text-muted"><a href="../privacy">Privacy Policy</a></div>
             </div>
