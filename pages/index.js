@@ -148,37 +148,11 @@ const home = () => {
         
         {/* Start row */}
         <div class="row">
-          
-          <div class="col-sm-6 order-md-1">
+        
+          <div class="col-sm-6 order-md-2">
             <div class="mt-5 mb-5">
               <div class="textbox">
                 <h3 class="step-number h4 mb-2"><i>Step 3</i></h3>
-                <h3 class="h4 mb-2">Leave a zero carbon footprint</h3>
-                <p class="text-muted mb-0">Using MyBalance's carbon offsetting plans allows you to manage
-                  the carbon you can not remove by taking lifestyle changes alone to achieve a zero carbon
-                  footprint.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 order-md-2">
-            <div class="text-center mt-5 mb-5">
-              <img src="/Offsetting_Choices.png" class="mockup-image"
-                alt="SA Flights"></img>
-            </div>
-          </div>
-        
-        {/* End row */}
-        </div>
-
-        <hr class="divider my-4" />
-        
-        {/* Start row */}
-        <div class="row">
-        
-          <div class="col-sm-6 order-md-2">
-            <div class="mt-5 mb-5">
-              <div class="textbox">
-                <h3 class="step-number h4 mb-2"><i>Step 4</i></h3>
                 <h3 class="h4 mb-2">Keep on track living a low carbon life</h3>
                 <p class="text-muted mb-0">Our unique active tools will help you keep on track and build a
                   weekly, monthly and annual picture of your progress as you reduce your carbon footprint
@@ -195,13 +169,39 @@ const home = () => {
         
         {/* End row */}
         </div>
+
+        <hr class="divider my-4" />
+
+        {/* Start row */}
+        <div class="row">
+          
+          <div class="col-sm-6 order-md-1">
+            <div class="mt-5 mb-5">
+              <div class="textbox">
+                <h3 class="step-number h4 mb-2"><i>Step 4</i></h3>
+                <h3 class="h4 mb-2">Leave a zero carbon footprint</h3>
+                <p class="text-muted mb-0">Using MyBalance's carbon offsetting plans allows you to manage
+                  the carbon you can not remove by taking lifestyle changes alone to achieve a zero carbon
+                  footprint.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 order-md-2">
+            <div class="text-center mt-5 mb-5">
+              <img src="/Offsetting_Choices.png" class="mockup-image"
+                alt="SA Flights"></img>
+            </div>
+          </div>
+        
+        {/* End row */}
+        </div>
         
         <hr class="divider my-4" />
       
       </div>
     </section>
 
-    {/* Business section */}
+    {/* help section */}
     <section class="page-section bg-primary" id="help">
       <div class="container">
         <div class="row justify-content-center">
