@@ -75,7 +75,7 @@ const home = () => {
           </div>
           <div class="col-lg-6 text-center my-4 video-border">
             <video width="270" height="546" controls class="video-border">
-              <source src="/assets/vid/MyBalanceRunThrough.mp4" type="video/mp4"/> 
+              <source src="https://mybalance.github.io/assets/vid/MyBalanceRunThrough.mp4" type="video/mp4"/> 
               {/* Have a look at the border styles. Overflow hidden? */}
             </video>
           </div>
