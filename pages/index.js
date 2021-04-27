@@ -157,7 +157,7 @@ const home = () => {
         {/* Start row */}
         <div class="row">
         
-          <div class="col-sm-6 order-md-2">
+          <div class="col-sm-6 order-md-1">
             <div class="mt-5 mb-5">
               <div class="textbox">
                 <h3 class="step-number h4 mb-2"><i>Step 3</i></h3>
@@ -183,7 +183,7 @@ const home = () => {
         {/* Start row */}
         <div class="row">
           
-          <div class="col-sm-6 order-md-1">
+          <div class="col-sm-6 order-md-2">
             <div class="mt-5 mb-5">
               <div class="textbox">
                 <h3 class="step-number h4 mb-2"><i>Step 4</i></h3>
@@ -194,7 +194,7 @@ const home = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-6 order-md-2">
+          <div class="col-sm-6 order-md-1">
             <div class="text-center mt-5 mb-5">
               <img src="/Offsetting_Choices.png" class="mockup-image"
                 alt="SA Flights"></img>
