@@ -5,8 +5,8 @@ const privacy = () => {
     <div>
 
     <Head>
-      <title>MyBalance | Low carbon living</title>
-      <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+      <title>MyBalance, supported by Abri</title>
+      <link rel="shortcut icon" href="/assets/img/Web_Icon_1024px.png" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.gstatic.com"></link> 
       <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"></link>
