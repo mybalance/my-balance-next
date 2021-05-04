@@ -1,10 +1,19 @@
 import Head from 'next/head';
+import React from 'react';
 import { Mail, Twitter, Instagram } from "react-feather";
+import { getDownloadURL } from '../internal/getDownloadURL';
+import { DownloadChoiceModal } from '../components/DownloadChoiceModal';
+import { Button } from 'react-bootstrap';
 
 const home = () => {
+  // Set up state for tracking download button modal visibility
+  const [modalVisible, setModalVisible] = React.useState(false);
+  // Get download URL (is false if not iOS/Android dev)
+  const downloadURL = getDownloadURL();
+
   return (
     <div>
-
+      <DownloadChoiceModal showing={modalVisible} onChange={(newValue) => setModalVisible(newValue)} />
     <Head>
       <title>MyBalance | Low carbon living</title>
       <link rel="shortcut icon" href="/static/favicon.ico" />
@@ -55,7 +64,10 @@ const home = () => {
           </div>
           <div class="col-lg-8 align-self-baseline">
             <p class="text-white-75 font-weight-light mb-5">Act against Climate Change</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#businesses">Request a demo</a>
+            {/* If download URL is not false, clicking download should go straight to store */}
+            {downloadURL && <a class="btn btn-primary btn-xl js-scroll-trigger" href={downloadURL}>Download</a>}
+            {/* If downloadURL is false, show DownloadChoiceModal on click */}
+            {!downloadURL && <Button className="btn btn-primary btn-xl js-scroll-trigger" onClick={() => setModalVisible(true)}>Download</Button>}
           </div>
         </div>
       </div>
