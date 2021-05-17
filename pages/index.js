@@ -15,24 +15,33 @@ const home = () => {
     <div>
       <DownloadChoiceModal showing={modalVisible} onChange={(newValue) => setModalVisible(newValue)} />
       <Head>
-        <title>MyBalance | Low carbon living</title>
-        <link rel="shortcut icon" href="/static/favicon.ico" />
+        <title>MyBalance, supported by Abri</title>
+        <link rel="shortcut icon" href="/assets/img/Web_Icon_1024px.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link> 
         <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"></link>
       </Head>
-
+    
       {/* Navigation */}
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
-          <a class="navbar-brand js-scroll-trigger" href="#page-top">MyBalance</a>
+          <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img
+              src="/assets/img/Web_Icon_1024px.png"
+              width="50"
+              height="50"
+              className="d-inline-block align-top pr-1"
+              alt="MyBalance supported by Abri logo"
+            />
+            MyBalance
+          </a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
             data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
             aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto my-2 my-lg-0">
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#businesses">For Businesses</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#help">Help</a></li>
               <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -179,7 +188,6 @@ const home = () => {
                   alt="SA Flights"></img>
               </div>
             </div>
-
             {/* End row */}
           </div>
 
@@ -212,24 +220,25 @@ const home = () => {
           <hr class="divider my-4" />
 
         </div>
-      </section>
+        
+        <hr class="divider my-4" />
+      
+      </div>
+    </section>
 
-      {/* Business section */}
-      <section class="page-section bg-primary" id="businesses">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10 text-center">
-              <h2 class="mt-0 text-white">For business?</h2>
-              <hr class="divider light my-4" />
-              <p class="text-white-50 mb-5">MyBalance has been designed to help businesses work with its customers
-              and staff under your own branded Mybalance. To discuss your next steps, contact us</p>
-            </div>
+    {/* help section */}
+    <section class="page-section bg-primary" id="help">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="mt-0 text-white">Need a hand?</h2>
+            <hr class="divider light my-4" />
+            <p class="text-white-50 mb-5">We've developed lots of how-to guides, and might have answered some of your questions already! Check them out by clicking the button below.</p>
           </div>
-          <div class="row">
-            <div class="col-sm-12 mr-auto text-center">
-              {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-              <a class="btn btn-light btn-xl" href="mailto:hello@mybalance.earth">hello@mybalance.earth</a>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 mr-auto text-center">
+          <a class="btn btn-light btn-xl"  target="_blank" href="https://mybalance.freshdesk.com">Support</a>
           </div>
         </div>
       </section>
@@ -238,160 +247,33 @@ const home = () => {
       <section class="page-section">
       </section>
 
-      {/* Meet the team */}
-      <section class="page-section bg-dark text-white" id="team">
-
-        <div class="container">
-
-          <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-8 col-md-10 text-center">
-              <div class="mb-3">
-                <h2 class="text-white">Meet our team</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="team">
-                <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Sam.jpg" alt=""></img>
-                </div>
-                <div class="team-content">
-                  <div class=" team-content-inner">
-                    <div class="d-flex">
-                      <div class="team-info">
-                        <h5 class="mb-0"><a class="avatar-name">Sam Drew</a></h5>
-                        <span class="team-position">Director</span>
-                      </div>
-                    </div>
-                    <div class="team-contact mt-2">
-                      A founding force in setting up MyBalance, Sam is passionate about his role to help us all achieve a lower carbon lifestyle, within the team Sam has taken the lead role in developing the software platform.
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="team">
-                <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Steve.jpg" alt=""></img>
-                </div>
-                <div class="team-content">
-                  <div class="team-content-inner">
-                    <div class="d-flex">
-                      <div class="team-info">
-                        <h5 class="mb-0"><a class="avatar-name">Steve Drew</a></h5>
-                        <span class="team-position">Director</span>
-                      </div>
-                    </div>
-                    <div class="team-contact mt-2">
-                      A founder of MyBalance with Sam, a chartered surveyor with 30 years experience improving the energy performance of the built environment. The missing piece for Steve was always finding the carbon solution for people and not the places they live in.
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="team">
-                <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Raj.jpg" alt=""></img>
-                </div>
-                <div class="team-content">
-                  <div class=" team-content-inner">
-                    <div class="d-flex">
-                      <div class="team-info">
-                        <h5 class="mb-0"><a class="avatar-name">Raj Dhonoa</a></h5>
-                        <span class="team-position">IT Infrastructure</span>
-                      </div>
-                    </div>
-                    <div class="team-contact mt-2">
-                      Raj builds and maintains the systems that our business runs on. Experienced in managing the latest software technologies, he ensures everything runs smoothly.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="team">
-                <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Jay.jpg" alt=""></img>
-                </div>
-                <div class="team-content">
-                  <div class=" team-content-inner">
-                    <div class="d-flex">
-                      <div class="team-info">
-                        <h5 class="mb-0"><a class="avatar-name">Jay Milne</a></h5>
-                        <span class="team-position">Marketing</span>
-                      </div>
-                    </div>
-                    <div class="team-contact mt-2">
-                      Jay leads the marketing function at MyBalance, previously working in a number of startups. Jay brings her energy to making MyBalance the choice app for anybody wishing to lower their carbon footprint.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="team">
-                <div class="team-avatar">
-                  <img class="w-100" src="/assets/img/Leon.jpg" alt=""></img>
-                </div>
-                <div class="team-content">
-                  <div class=" team-content-inner">
-                    <div class="d-flex">
-                      <div class="team-info">
-                        <h5 class="mb-0"><a class="avatar-name">Leon Crisp</a></h5>
-                        <span class="team-position">Consultant</span>
-                      </div>
-                    </div>
-                    <div
-                      class="team-contact mt-2 font-smaller"
-                    // style="font-size: 80%;"
-                    >
-                      Leon is a serial entrepreneur and software specialist, developing software products for over 30 years. After graduating in science from Cambridge University (Natural Sciences) Leon went on to found several businesses and create many software applications, with a focus on business productivity and automation. He loves to always be learning, and is passionate about technology, nature, sustainability and human potential.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    {/* Contact section */}
+    <section class="page-section bg-primary" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h2 class="mt-0 text-white">Contact us!</h2>
+            <hr class="divider my-4" />
+            <p class="text-white-50 mb-5">Got any questions or queries?</p>
           </div>
         </div>
 
-      </section>
-
-      {/* Spacing section */}
-      <section class="page-section">
-      </section>
-
-      {/* Contact section */}
-      <section class="page-section bg-primary" id="contact">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-10 text-center">
-              <h2 class="mt-0 text-white">Contact us!</h2>
-              <hr class="divider my-4" />
-              <p class="text-white-50 mb-5">Got any questions or queries?</p>
-            </div>
+        <div class="row">
+          <div class="col-sm-4 mx-auto mb-5 text-center">
+            <Twitter color="white" />
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white" href="https://www.twitter.com/mycarbonbalance/" target="_blank">@mycarbonbalance</a>
           </div>
-
-          <div class="row">
-            <div class="col-sm-4 mr-auto mb-5 text-center">
-              <Mail color="white" />
-              {/* Pass in size as a prop to change the size. For example: size={30}  */}
-              {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-              <a class="d-block text-white" href="mailto:hello@mybalance.earth" target="_blank">hello@mybalance.earth</a>
-            </div>
-            <div class="col-sm-4 mr-auto mb-5 text-center">
-              <Twitter color="white" />
-              {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-              <a class="d-block text-white" href="https://www.twitter.com/mycarbonbalance/" target="_blank">@mycarbonbalance</a>
-            </div>
-            <div class="col-sm-4 mr-auto mb-5 text-center">
-              <Instagram color="white" />
-              {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
-              <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance" target="_blank">@mycarbonbalance</a>
-            </div>
+          <div class="col-sm-4 mx-auto mb-5 text-center">
+            <Mail color="white" size={36}/> 
+            {/* Pass in size as a prop to change the size. For example: size={30}  */}
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white text-large" href="mailto:hello@mybalance.earth" target="_blank">hello@mybalance.earth</a>
+          </div>
+          <div class="col-sm-4 mx-auto mb-5 text-center">
+            <Instagram color="white" />
+            {/* Make sure to change the email address in BOTH the anchor text and the link target below! */}
+            <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance" target="_blank">@mycarbonbalance</a>
           </div>
         </div>
       </section>
