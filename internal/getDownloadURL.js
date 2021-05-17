@@ -9,9 +9,9 @@ export function getDownloadURL() {
     // If the device is neither iOS or Android, return false so that the page
     // knows to render a choice modal.
     if ( isAndroid ) {
-        return 'https://play.google.com/store/apps/details?id=earth.mybalance.mybalance';
+        return 'https://play.google.com/store/apps/details?id=earth.mybalance.abri';
     } else if ( isIOS ) {
-        return 'https://apps.apple.com/gb/app/mybalance/id1501751263';
+        return 'https://apps.apple.com/gb/app/mybalance-supported-by-abri/id1563898264';
     } else {
         return false;
     }

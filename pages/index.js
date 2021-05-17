@@ -223,7 +223,6 @@ const home = () => {
         
         <hr class="divider my-4" />
       
-      </div>
     </section>
 
     {/* help section */}
@@ -241,7 +240,8 @@ const home = () => {
           <a class="btn btn-light btn-xl"  target="_blank" href="https://mybalance.freshdesk.com">Support</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Spacing section */}
       <section class="page-section">
@@ -276,7 +276,8 @@ const home = () => {
             <a class="d-block text-white" href="https://www.instagram.com/mycarbonbalance" target="_blank">@mycarbonbalance</a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       {/* Footer section */}
       <footer class="bg-light py-5">
