@@ -5,8 +5,8 @@ const privacy = () => {
     <div>
 
     <Head>
-      <title>MyBalance, supported by Abri</title>
-      <link rel="shortcut icon" href="/assets/img/Web_Icon_1024px.png" />
+      <title>MyBalance | Low carbon living</title>
+      <link rel="shortcut icon" href="/static/favicon.ico" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.gstatic.com"></link> 
       <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"></link>
@@ -35,7 +35,6 @@ const privacy = () => {
                     <div class="col-lg-9 order-lg-1">
                         <div class="p-5">
                             <p>Carbon Innovations Ltd built the MyBalance app as a Commercial app. This SERVICE is provided by Carbon Innovations Ltd and is intended for use as is.</p>
-                            <p>This Service is operated wholly by Carbon Innovations Ltd. Branding, colour, and logos are used with the express permission of Abri. Abri does not have access to any personal information as part of this Service, other than that specified in this Privacy Policy.</p>
                             <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.</p>
                             <p>If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. we will not use or share your information with anyone except as described in this Privacy Policy.</p>
                             <p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at MyBalance unless otherwise defined in this Privacy Policy.</p>
@@ -220,7 +219,7 @@ const privacy = () => {
         {/* Footer */}
         <footer class="bg-light py-5">
             <div class="container">
-                <div class="small text-center text-muted">Copyright © 2021 - Carbon Innovations</div>
+                <div class="small text-center text-muted">Copyright © 2020 - Carbon Innovations</div>
                 <div class="small text-center text-muted"><a href="../terms">Ts & Cs</a></div>
                 <div class="small text-center text-muted"><a href="../privacy">Privacy Policy</a></div>
             </div>

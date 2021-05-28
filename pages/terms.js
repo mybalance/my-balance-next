@@ -5,8 +5,8 @@ const terms = () => {
     <div>
 
     <Head>
-      <title>MyBalance, supported by Abri</title>
-      <link rel="shortcut icon" href="/assets/img/Web_Icon_1024px.png" />
+      <title>MyBalance | Low carbon living</title>
+      <link rel="shortcut icon" href="/static/favicon.ico" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <link rel="preconnect" href="https://fonts.gstatic.com"></link> 
       <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&display=swap" rel="stylesheet"></link>
@@ -79,7 +79,7 @@ const terms = () => {
         {/* Footer */}
         <footer class="bg-light py-5">
             <div class="container">
-                <div class="small text-center text-muted">Copyright © 2021 - Carbon Innovations</div>
+                <div class="small text-center text-muted">Copyright © 2020 - Carbon Innovations</div>
                 <div class="small text-center text-muted"><a href="../terms">Ts & Cs</a></div>
                 <div class="small text-center text-muted"><a href="../privacy">Privacy Policy</a></div>
             </div>
