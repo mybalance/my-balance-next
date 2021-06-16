@@ -1,0 +1,153 @@
+.navbar {
+	height: 6rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	padding: 0 4rem;
+	z-index: 20;
+}
+
+@media (max-width: 750px) {
+	.navbar {
+		padding: 1rem;
+	}
+}
+
+.brand {
+	line-height: 1.5;
+	/* This line-height adds space between the text and the border-bottom */
+	cursor: pointer;
+	color: black;
+	transition: border-bottom .75s ease;
+	border-bottom: .25rem solid transparent;
+	visibility: hidden;
+	/* Bring the styles that apply to an h1 from the globals file to this file. */
+}
+
+@media (max-width: 500px) {
+	.brand {
+		padding: 0;
+		border-bottom: none;
+	}
+}
+
+.brand:hover {
+	border-bottom: .25rem solid whitesmoke;	
+}
+
+@media (max-width: 500px) {
+	.brand:hover {
+		border-bottom: none;
+	}
+}
+
+.overlayHidden {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, .7);
+	position: fixed;
+	z-index: 5;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 1s ease;
+	display: grid;
+	place-items: center;
+}
+
+.overlay {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, .8);
+	position: fixed;
+	z-index: 5;
+	opacity: 1;
+	visibility: visible;
+	transition: all 1s ease;
+	display: grid;
+	place-items: center;
+}
+
+.overlayContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlayItem {
+	font-size: 3rem;
+	color: whitesmoke;
+	padding: .5rem 0;
+	cursor: pointer;
+	border-bottom: .25rem solid transparent;
+	transition: all .75s ease;
+}
+
+@media (max-width: 750px) {
+	.overlayItem {
+		font-size: 1.5rem;
+		border-bottom: none;
+	}
+}
+
+.overlayItem:hover {
+	border-bottom: .25rem solid whitesmoke;
+}
+
+@media (max-width: 750px) {
+	.overlayItem:hover {
+		border-bottom: none;
+	}
+}
+
+.square {
+	display: grid;
+	place-items: center;
+	height: 2.5rem;
+	width: 2.5rem;
+	cursor: pointer;
+  border: solid .2rem transparent;
+  position: relative;
+  z-index: 15;
+}
+
+.square span {
+  height: .12rem;
+	width: 1.8rem;
+	background-color: black;
+  border-radius: 5%;
+  opacity: 1;
+  transition: all 1s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.square span.open {
+	background-color: whitesmoke;
+}
+
+.open:nth-child(1) {
+  transform: translateY(.7rem) rotate(45deg);
+}
+
+.open:nth-child(2) {
+  opacity: 0;
+}
+
+.open:nth-child(3) {  
+  transform: translateY(-.7rem) rotate(-45deg);
+}
+
+.closed:nth-child(1) {
+  transform: rotate(0) translateY(0);
+}
+
+.closed:nth-child(2) {
+  opacity: 1;
+}
+
+.closed:nth-child(3) {
+  transform: rotate(0) translateY(0);
+}

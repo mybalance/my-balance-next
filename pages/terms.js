@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import NavTwo from '../components/NavTwo';
 
 const terms = () => {
   return (
@@ -13,7 +14,7 @@ const terms = () => {
     </Head>
       
         {/* Navigation */}
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
+        {/* <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3" id="mainNav">
             <div class="container">
                 <a class="navbar-brand js-scroll-trigger" href="../#page-top">MyBalance</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -25,7 +26,9 @@ const terms = () => {
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> */}
+
+        <NavTwo />
 
         {/* Terms and conditions */}
         <section class="page-section">
@@ -94,7 +97,7 @@ const terms = () => {
         <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 
         {/* Core theme JS */}
-        <script src="../js/scripts.js"></script>
+        {/* <script src="../js/scripts.js"></script> */}
   
 
 

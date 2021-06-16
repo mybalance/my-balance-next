@@ -4,6 +4,7 @@ import { Mail, Twitter, Instagram } from "react-feather";
 import { getDownloadURL } from '../internal/getDownloadURL';
 import { DownloadChoiceModal } from '../components/DownloadChoiceModal';
 import { Button } from 'react-bootstrap';
+import Navigation from '../components/Navigation';
 
 const home = () => {
   // Set up state for tracking download button modal visibility
@@ -46,7 +47,7 @@ const home = () => {
       </Head>
 
       {/* Navigation */}
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+      {/* <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
           <a class="navbar-brand js-scroll-trigger" href="#page-top">MyBalance</a>
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
@@ -60,10 +61,12 @@ const home = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+      <Navigation />
 
       {/* Masthead */}
-      <header class="masthead">
+      <header class="masthead" id="home-top">
         {/* Next doesn't like the style tag in the below div.  */}
         <div
           id="bg-vid-container"
