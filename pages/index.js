@@ -8,8 +8,31 @@ import { Button } from 'react-bootstrap';
 const home = () => {
   // Set up state for tracking download button modal visibility
   const [modalVisible, setModalVisible] = React.useState(false);
+  // Set up state defining the SAImage to be displayed
+  const [imageIndex, setImageIndex] = React.useState(0);
   // Get download URL (is false if not iOS/Android dev)
   const downloadURL = getDownloadURL();
+
+  // Define SA image array
+  const SAImages = [<img src="/SA_1.png" class="mockup-image SA-slides"
+    alt="Self Assessment"></img>,
+  <img src="/SA_2.png" class="mockup-image SA-slides"
+    alt="Self Assessment"></img>,
+  <img src="/SA_3.png" class="mockup-image SA-slides"
+    alt="Self Assessment"></img>,
+  <img src="/SA_4.png" class="mockup-image SA-slides"
+    alt="Self Assessment"></img>];
+
+  React.useEffect(() => {
+    const imageInterval = setInterval(function () {
+      if (imageIndex < SAImages.length - 1) {
+        setImageIndex(imageIndex + 1);
+      } else {
+        setImageIndex(0);
+      }
+    }, 2000);
+    return () => clearInterval(imageInterval);
+  })
 
   return (
     <div>
@@ -86,8 +109,8 @@ const home = () => {
               <a class="btn btn-light btn-xl js-scroll-trigger" href="#about">Get Started!</a>
             </div>
             <div class="col-lg-6 text-center my-4 video-border">
-              <div style={{padding: "56.25% 0 0 0", position: 'relative'}}>
-              <iframe src="https://player.vimeo.com/video/546426014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{position:'absolute', top:0, left:0, width:'100%', height:'100%'}} title="MyBalance.mov">
+              <div style={{ padding: "56.25% 0 0 0", position: 'relative' }}>
+                <iframe src="https://player.vimeo.com/video/546426014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }} title="MyBalance.mov">
                 </iframe>
               </div>
               <script src="https://player.vimeo.com/api/player.js"></script>
@@ -116,14 +139,7 @@ const home = () => {
 
             <div class="col-sm-6 order-md-2">
               <div class="text-center mt-5 mb-5">
-                <img src="/SA_1.png" class="mockup-image SA-slides"
-                  alt="Self Assessment"></img>
-                <img src="/SA_2.png" class="mockup-image SA-slides"
-                  alt="Self Assessment"></img>
-                <img src="/SA_3.png" class="mockup-image SA-slides"
-                  alt="Self Assessment"></img>
-                <img src="/SA_4.png" class="mockup-image SA-slides"
-                  alt="Self Assessment"></img>
+                {SAImages[imageIndex]}
                 {/* Added closing img tags above. */}
               </div>
             </div>
@@ -412,9 +428,8 @@ const home = () => {
       {/* Third party plugin JS */}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-
+      
       <script src="js/scripts.js"></script>
-      <script src="js/carousel.js"></script>
 
       {/* This div closes the component. */}
     </div>
