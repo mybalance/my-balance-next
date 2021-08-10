@@ -1,0 +1,218 @@
+.sectionContainer {
+  height: fit-content;
+  width: 100%;
+  padding: 0 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1250px) {
+  .sectionContainer {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionContainer {
+    padding: 0 1rem;
+  }
+}
+
+.rowContainer {
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+  place-items: center;
+}
+
+@media (max-width: 1000px) {
+  .rowContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .rowContainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+.personContainer {
+  height: min-content;
+  width: min-content;
+  /* border: 2px solid red; */
+}
+
+.textContainer {
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.teamHeader {
+  margin: 2.5rem auto;
+}
+
+.imageSquareSam {
+  height: 18rem;
+  width: 18rem;
+  background-image: url('../public/assets/img/Sam.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: .75rem;
+  position: relative;
+}
+
+@media (max-width: 1250px) {
+  .imageSquareSam {
+    height: 15rem;
+    width: 15rem;
+  }  
+}
+
+.imageSquareRhys {
+  height: 18rem;
+  width: 18rem;
+  background-image: url('../public/assets/img/rhys_picture.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: .75rem;
+  position: relative;  
+}
+
+@media (max-width: 1250px) {
+  .imageSquareRhys {
+    height: 15rem;
+    width: 15rem;
+  }  
+}
+
+.imageSquareSteve {
+  height: 18rem;
+  width: 18rem;
+  background-image: url('../public/assets/img/Steve.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: .75rem;
+  position: relative;  
+}
+
+@media (max-width: 1250px) {
+  .imageSquareSteve {
+    height: 15rem;
+    width: 15rem;
+  }  
+}
+
+.imageSquareRaj {
+  height: 18rem;
+  width: 18rem;
+  background-image: url('../public/assets/img/Raj.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: .75rem;
+  position: relative;  
+}
+
+@media (max-width: 1250px) {
+  .imageSquareRaj {
+    height: 15rem;
+    width: 15rem;
+  }  
+}
+
+.imageSquareLeon {
+  height: 18rem;
+  width: 18rem;
+  background-image: url('../public/assets/img/Leon.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: .75rem;
+  position: relative;  
+}
+
+@media (max-width: 1250px) {
+  .imageSquareLeon {
+    height: 15rem;
+    width: 15rem;
+  }  
+}
+
+/* There is definitely a better way to write the above code. There is a lot of repetition at the moment. */
+
+.headingNotVis {
+  font-size: 1.5rem;
+  visibility: hidden;
+  opacity: 0;
+  color: whitesmoke;
+  transition: all 1s ease;  
+}
+
+@media (max-width: 1050px) {
+  .headingNotVis {
+    font-size: 1.25rem;
+  }
+}
+
+.headingVis {
+  font-size: 1.5rem;
+  opacity: 1;
+  color: whitesmoke;
+  transition: all 1s ease;
+}
+
+@media (max-width: 1050px) {
+  .headingVis {
+    font-size: 1.25rem;
+  }
+}
+
+.descriptionNotVis {
+  font-size: 1.25rem;
+  visibility: hidden;
+  opacity: 0;
+  color: whitesmoke;
+  transition: all 1s ease;
+}
+
+@media (max-width: 1050px) {
+  .descriptionNotVis {
+    font-size: 1.1rem;
+  }
+}
+
+.descriptionVis {
+  font-size: 1.25rem;
+  opacity: 1;
+  color: whitesmoke;
+  transition: all 1s ease;
+}
+
+@media (max-width: 1050px) {
+  .descriptionVis {
+    font-size: 1.1rem;
+  }
+}
+
+.overlayNotVis {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0;
+  border-radius: .75rem;
+  transition: all 1s ease;
+}
+
+.overlayVis {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+  border-radius: .75rem;
+  transition: all 1s ease;
+}

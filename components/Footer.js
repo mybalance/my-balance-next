@@ -1,6 +1,14 @@
+import React from "react";
+import Head from "next/head";
+import styles from "../styles/Footer.module.css";
+
 const Footer = () => {
   return (
-    <h2>This is the footer.</h2>
+    <>
+      <section className={styles.footerContainer}>
+        <h3></h3>
+      </section>
+    </>
   )
 }
 

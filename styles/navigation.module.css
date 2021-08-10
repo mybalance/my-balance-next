@@ -1,29 +1,43 @@
 .navbar {
-	height: 6rem;
+	font-family: "inter", sans-serif;
+	height: 5.25rem;
 	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid lightgray;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	padding: 0 4rem;
 	z-index: 20;
 }
 
-@media (max-width: 750px) {
+/* @media (max-width: 750px) {
 	.navbar {
 		padding: 1rem;
 	}
+} */
+
+.itemTwo {
+	display: flex;
+	padding-right: 6rem;
 }
 
 .brand {
+	padding-left: 96px;
+	/* margin-right: auto; */
 	font-weight: 600;
-	line-height: 1.5;
+	/* line-height: 1.5; */
 	/* This line-height adds space between the text and the border-bottom */
 	cursor: pointer;
-	color: whitesmoke;
-	transition: border-bottom .75s ease;
+	color: #04080F;
+	/* transition: border-bottom .75s ease; */
 	border-bottom: .25rem solid transparent;
 	/* Bring the styles that apply to an h1 from the globals file to this file. */
+	background-image: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
+	background-repeat: no-repeat;
+  background-size: 100% 0em;
+  background-position: 0 100%;
+	transition: all .75s ease;
 }
 
 @media (max-width: 500px) {
@@ -34,7 +48,11 @@
 }
 
 .brand:hover {
-	border-bottom: .25rem solid whitesmoke;	
+	/* border-bottom: .25rem solid #007C7A; */
+	background-image: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);	
+	background-repeat: no-repeat;
+  background-size: 100% 1em;
+  background-position: 0 100%;
 }
 
 @media (max-width: 500px) {
@@ -42,6 +60,20 @@
 		border-bottom: none;
 	}
 }
+
+.navItem {
+	color: #04080F;
+	font-family: "inter", sans-serif;
+	font-size: 1.25rem;
+	cursor: pointer;
+}
+
+.navItem:not(:last-child) {
+	margin-right: 5rem;
+}
+
+/* Globals is affecting these styles */
+/* Link to a CSS variables file */
 
 .overlayHidden {
 	height: 100vh;
@@ -107,6 +139,7 @@
 	place-items: center;
 	height: 2.5rem;
 	width: 2.5rem;
+	margin-right: 6rem;
 	cursor: pointer;
   border: solid .2rem transparent;
   position: relative;
@@ -116,7 +149,7 @@
 .square span {
   height: .12rem;
 	width: 1.8rem;
-	background-color: whitesmoke;
+	background-color: #04080F;
   border-radius: 5%;
   opacity: 1;
   transition: all 1s ease;

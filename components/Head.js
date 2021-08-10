@@ -3,7 +3,7 @@ import { GoogleFonts } from "next-google-fonts";
 
 const Head = ({ children, title }) => (
   <React.Fragment>
-    <GoogleFonts href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" />
+    {/* <GoogleFonts href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" /> */}
     <NextHead>
       <meta charSet="UTF-8" />
       <meta
@@ -24,3 +24,7 @@ export default Head;
 //  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
 //  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
 //  rel="stylesheet" type="text/css" />
+
+{/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">  */}
