@@ -22,10 +22,17 @@ const Navigation = () => {
 		closed: `${styles.closed}` 
 	}
 
+	const background = {
+		on: `${styles.overlay}`,
+		off: `${styles.overlayHidden}`  
+	}
+
 	const [ham, setHam] = useState(menu.closed);
+	const [overlay, setOverlay] = useState(background.off)
 
 	const handleClick = () => {
 		setHam(ham == menu.open ? menu.closed : menu.open); 
+		setOverlay(overlay == background.on ? background.off : background.on)
 	};
 
   return (
@@ -37,9 +44,8 @@ const Navigation = () => {
         />
       </Head>
 
+			{/* Main navbar */}
 			<navbar className={styles.navbar}>
-			{/* Scrollspy */}
-
 				<div>
 					<Link href="#home-top">
 						<h1 className={styles.brand} >MyBalance</h1>
@@ -49,13 +55,13 @@ const Navigation = () => {
 				{
 					size > 1000 ?
 						<div className={styles.itemTwo}>
-							<Link href="#what-we-do">
-								<p className={styles.navItem}>What we do</p>
+							<Link href="#works">
+								<p className={styles.navItem}>How it works</p>
 							</Link>
-							<Link href="#meet-the-team">
+							<Link href="#team">
 								<p className={styles.navItem}>Meet the team</p>
 							</Link>
-							<Link href="#get-in-touch">
+							<Link href="#contact">
 								<p className={styles.navItem}>Get in touch</p>
 							</Link>
 						</div>
@@ -68,25 +74,29 @@ const Navigation = () => {
 				}
 			</navbar>
 
-			{/* <div className={overlay} onClick={handleClick}>
+			{/* Overlay */}
+			<div className={overlay} onClick={handleClick}>
 				<div className={styles.overlayContainer}>
-					<Link href="#home-top">
+					<Link href="#home">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Home</h2>
 					</Link>
-					<Link href="#businesses">
-						<h2 className={styles.overlayItem} onClick={handleClick}>For business</h2>
+					<Link href="#works">
+						<h2 className={styles.overlayItem} onClick={handleClick}>How it works</h2>
+					</Link>
+					<Link href="#team">
+						<h2 className={styles.overlayItem} onClick={handleClick}>Meet the team</h2>
 					</Link>
 					<Link href="#contact">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Contact</h2>
 					</Link>
-					<Link href="/terms">
+					{/* <Link href="/terms">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Terms and conditions</h2>
 					</Link>
 					<Link href="/privacy">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Privacy policy</h2>
-					</Link>	
+					</Link>	 */}
 				</div>
-			</div> */}
+			</div>
 		</>
   )
 }

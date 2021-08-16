@@ -1,0 +1,82 @@
+.sectionContainer {
+  height: fit-content;
+  background-color: #f8f8f8;
+  padding: 0 16rem;
+}
+
+@media (max-width: 1000px) {
+  .sectionContainer {
+    padding: 0 6rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .sectionContainer {
+    padding: 0 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionContainer {
+    padding: 0 1rem;
+  }
+}
+
+.header {
+  width: fit-content;
+  font-family: "Inter";
+  font-size: 3.5rem;
+  color: #04080F;
+  margin: 6rem 6rem;
+  text-align: left;
+} 
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 3rem;
+    margin: 3rem 6rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .header {
+    margin: 3rem 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    margin: 3rem 1rem;
+  }
+}
+
+.headerColour {
+  background-image: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.3em;
+  background-position: 0 90%;
+  transition: background-size 0.75s ease;
+}
+
+.rowContainer {
+  height: fit-content;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+  place-items: center;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+  .rowContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .rowContainer {
+    grid-template-columns: 1fr;
+  }
+}

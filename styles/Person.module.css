@@ -43,7 +43,6 @@
 .personContainer {
   height: min-content;
   width: min-content;
-  /* border: 2px solid red; */
 }
 
 .textContainer {
@@ -146,6 +145,8 @@
 /* There is definitely a better way to write the above code. There is a lot of repetition at the moment. */
 
 .headingNotVis {
+  margin: 0 0;
+  font-family: "inter", sans-serif;
   font-size: 1.5rem;
   visibility: hidden;
   opacity: 0;
@@ -160,6 +161,8 @@
 }
 
 .headingVis {
+  margin: 0 0;
+  font-family: "inter", sans-serif;
   font-size: 1.5rem;
   opacity: 1;
   color: whitesmoke;
@@ -173,6 +176,7 @@
 }
 
 .descriptionNotVis {
+  font-family: "inter", sans-serif;
   font-size: 1.25rem;
   visibility: hidden;
   opacity: 0;
@@ -187,6 +191,7 @@
 }
 
 .descriptionVis {
+  font-family: "inter", sans-serif;
   font-size: 1.25rem;
   opacity: 1;
   color: whitesmoke;
