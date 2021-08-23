@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Steps.module.css";
 
 const Steps = () => {
@@ -35,9 +34,7 @@ const Steps = () => {
 
 
           {/* Item one image */}
-          <div className={styles.imageContainer}>
-            <Image src={'/screenshot_selfAssessment.png'} width={816} height={1591}></Image>
-          </div>
+          <img className={styles.imageContainer} src={'/screenshot_selfAssessment.png'} width={816} height={1591} />
         
         </section>
 
@@ -57,9 +54,7 @@ const Steps = () => {
           </div>
 
           {/* Item two image */}
-          <div className={styles.imageContainer}>
-            <Image src={'/screenshot_easyWins.png'} width={816} height={1591}></Image>
-          </div>
+          <img className={styles.imageContainer} src={'/screenshot_easyWins.png'} />
         
         </section>
 
@@ -79,9 +74,7 @@ const Steps = () => {
           </div>
 
           {/* Item three image */}
-          <div className={styles.imageContainer}>
-            <Image src={'/screenshot_offsetting.png'} width={816} height={1591}></Image>
-          </div>
+          <img className={styles.imageContainer} src={'/screenshot_offsetting.png'} width={816} height={1591} />
 
         </section>
 
@@ -101,9 +94,7 @@ const Steps = () => {
           </div>
 
           {/* Item four image */}
-          <div className={styles.imageContainer}>
-            <Image src={'/screenshot_main.png'} width={816} height={1591}></Image>
-          </div>
+          <img className={styles.imageContainer} src={'/screenshot_main.png'} width={816} height={1591} />
 
         </section>
       </div>
