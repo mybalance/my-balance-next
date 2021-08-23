@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Head from "next/head";
 import styles from "../styles/Landing.module.css";
 
