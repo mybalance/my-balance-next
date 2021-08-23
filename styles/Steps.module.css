@@ -52,6 +52,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 2.5rem;
+  align-items: center;
 }
 
 @media (max-width: 1000px) {
@@ -67,9 +68,11 @@
 }
 
 .textSection {
-  display: flex;
+  display: flexbox;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
+  flex: 1;
+  /* width: 50%; */
 }
 
 .containerWrap {
@@ -105,6 +108,9 @@
   color: white;
   padding: 1.75rem;
   border-radius: .25rem;
+  /* margin-right: auto; */
+  /* display: flex;
+  flex-grow: 1; */
 }
 
 .boxHeader {
@@ -129,6 +135,8 @@
   padding: 3px;
   margin: 0 16rem 0 0;
   border-radius: .25rem;
+  /* display: flex;
+  flex-grow: 1; */
 }
 
 @media (max-width: 1000px) {
