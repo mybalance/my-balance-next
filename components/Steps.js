@@ -54,7 +54,7 @@ const Steps = () => {
           </div>
 
           {/* Item two image */}
-          <img className={styles.imageContainer} src={'/screenshot_easyWins.png'} />
+          <img className={styles.imageContainer} src={'/screenshot_easyWins.png'}  width={816} height={1591} />
         
         </section>
 
