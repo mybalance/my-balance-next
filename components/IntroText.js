@@ -6,8 +6,8 @@ const IntroText = () => {
   return (
     <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter"
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
           rel="stylesheet"
         />
       </Head>

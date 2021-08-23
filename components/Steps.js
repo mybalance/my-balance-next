@@ -1,13 +1,14 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/Steps.module.css";
 
 const Steps = () => {
   return (
     <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter"
+				<link 
+          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
           rel="stylesheet"
         />
       </Head>
@@ -32,9 +33,10 @@ const Steps = () => {
             </div>
           </div>
 
+
           {/* Item one image */}
           <div className={styles.imageContainer}>
-            <div className={styles.image}></div>
+            <Image src={'/screenshot_selfAssessment.png'} width={816} height={1591}></Image>
           </div>
         
         </section>
@@ -56,7 +58,7 @@ const Steps = () => {
 
           {/* Item two image */}
           <div className={styles.imageContainer}>
-            <div className={styles.image}></div>
+            <Image src={'/screenshot_easyWins.png'} width={816} height={1591}></Image>
           </div>
         
         </section>
@@ -78,7 +80,7 @@ const Steps = () => {
 
           {/* Item three image */}
           <div className={styles.imageContainer}>
-            <div className={styles.image}></div>
+            <Image src={'/screenshot_offsetting.png'} width={816} height={1591}></Image>
           </div>
 
         </section>
@@ -100,7 +102,7 @@ const Steps = () => {
 
           {/* Item four image */}
           <div className={styles.imageContainer}>
-            <div className={styles.image}></div>
+            <Image src={'/screenshot_main.png'} width={816} height={1591}></Image>
           </div>
 
         </section>
@@ -110,3 +112,4 @@ const Steps = () => {
 }
 
 export default Steps;
+

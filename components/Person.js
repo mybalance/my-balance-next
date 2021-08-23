@@ -30,9 +30,8 @@ const Person = ({ name, position }) => {
     setOverlay(overlay == imageOverlay.notVis ? imageOverlay.vis : imageOverlay.notVis);
     setHeadingText(headingText == heading.notVis ? heading.vis : heading.notVis);
   }
-  // Check the logic in this function.
 
-  // Set the className based on the name prop.
+  // Here we set the className based on the name prop.
   let stylesVar;
 
   if (name == "Sam") {
@@ -63,8 +62,8 @@ const Person = ({ name, position }) => {
   return (
     <>
       <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter"
+				<link 
+          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
           rel="stylesheet"
         />
       </Head>

@@ -35,11 +35,12 @@ const Navigation = () => {
 		setOverlay(overlay == background.on ? background.off : background.on)
 	};
 
+	
   return (
 		<>
 			<Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter"
+				<link 
+          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
           rel="stylesheet"
         />
       </Head>
@@ -89,12 +90,6 @@ const Navigation = () => {
 					<Link href="#contact">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Contact</h2>
 					</Link>
-					{/* <Link href="/terms">
-						<h2 className={styles.overlayItem} onClick={handleClick}>Terms and conditions</h2>
-					</Link>
-					<Link href="/privacy">
-						<h2 className={styles.overlayItem} onClick={handleClick}>Privacy policy</h2>
-					</Link>	 */}
 				</div>
 			</div>
 		</>

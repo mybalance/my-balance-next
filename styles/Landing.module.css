@@ -4,7 +4,7 @@
   display: flex;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .mainContainer {
     height: fit-content;
     flex-direction: column;
@@ -16,23 +16,17 @@
   height: 100vh;
   width: 50vw;
   display: flex;
-  align-items: center;
-  display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   padding: 0 6rem;
-}
-
-@media (max-width: 1200px) {
-  .headerContainer {
-    width: fit-content;
-    margin: 0 12rem
-  }
 }
 
 @media (max-width: 1000px) {
   .headerContainer {
-    margin: 0 6rem;
+    height: fit-content;
+    width: fit-content;
+    margin: 10rem 4rem 0rem 4rem;
     padding: 0 0; 
   }
 }
@@ -60,13 +54,6 @@
   align-items: center;
   justify-content: center;
   padding: 0 6rem;
-}
-
-@media (max-width: 1200px) {
-  .phoneContainer {
-    width: 50vw;
-    margin: 0 12rem
-  }
 }
 
 @media (max-width: 1000px) {
@@ -97,8 +84,9 @@
 
 /* Header styles */
 .header {
-  font-family: "Inter";
+  font-family: 'Merriweather', serif;
   font-size: 4rem;
+  font-weight: 400;
   color: #04080F;
   text-align: center;
   margin-bottom: 2rem;
@@ -118,6 +106,12 @@
   }
 }
 
+@media (max-width: 300px) {
+  .header {
+    font-size: 2.5rem;
+  }
+}
+
 .headerColour {
   background-image: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
   background-repeat: no-repeat;
@@ -126,14 +120,11 @@
   transition: background-size 0.75s ease;
 }
 
-.headerColour:hover {
-  background-size: 100% 1em;
-}
-
 /* Subheader styles */
 .subheader {
   font-size: 1.5rem;
-  font-family: "inter", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
   color: #04080F;
   text-align: left;
 }

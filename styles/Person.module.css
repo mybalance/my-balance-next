@@ -146,7 +146,7 @@
 
 .headingNotVis {
   margin: 0 0;
-  font-family: "inter", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   visibility: hidden;
   opacity: 0;
@@ -162,7 +162,7 @@
 
 .headingVis {
   margin: 0 0;
-  font-family: "inter", sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 1.5rem;
   opacity: 1;
   color: whitesmoke;
@@ -176,7 +176,7 @@
 }
 
 .descriptionNotVis {
-  font-family: "inter", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 1.25rem;
   visibility: hidden;
   opacity: 0;
@@ -191,7 +191,7 @@
 }
 
 .descriptionVis {
-  font-family: "inter", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 1.25rem;
   opacity: 1;
   color: whitesmoke;
