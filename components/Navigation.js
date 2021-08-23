@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Head from "next/head";
-import styles from "../styles/Navigation.module.css";
+import styles from "../styles/navigation.module.css";
 
 const Navigation = () => {
 	const [size, setSize] = useState(0);
