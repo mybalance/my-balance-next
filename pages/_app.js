@@ -11,3 +11,8 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+// on page load, bring in a random image from an array
+
+// Server side: runs on the server on which your website is running
+// Client side: runs on the browser on which your website is loaded
