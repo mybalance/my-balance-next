@@ -1,0 +1,10 @@
+.mainContainer {
+  height: fit-content;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+}

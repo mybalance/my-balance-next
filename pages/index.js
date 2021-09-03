@@ -6,6 +6,7 @@ import IntroText from '../components/IntroText';
 import Steps from "../components/Steps";
 import Team from "../components/Team";
 import Contact from "../components/Contact";
+import VideoSection from "../components/VideoSection";
 import Footer from '../components/Footer';
 
 const home = () => {
@@ -24,6 +25,9 @@ const home = () => {
 
       {/* Landing component */}
       <Landing />
+
+      {/* Video section */}
+      <VideoSection />
 
       {/* Intro text component */}
       <IntroText />
