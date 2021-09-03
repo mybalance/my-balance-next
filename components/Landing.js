@@ -6,10 +6,10 @@ const Landing = () => {
   return (
     <>
       <Head>
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
+        <link
+          href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap"
           rel="stylesheet"
-        />  
+        />
       </Head>
 
       <section className={styles.mainContainer} id="home">
@@ -19,15 +19,23 @@ const Landing = () => {
         </div>
         <div className={styles.phoneContainer}>
           <iframe
-            className={styles.video} 
-            src="https://player.vimeo.com/video/546426014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
-            frameborder="0" 
-            allow="autoplay; fullscreen; picture-in-picture" 
-            allowfullscreen 
-            style={{ width: '100%', height: '100%' }} 
+            className={styles.video}
+            src="https://player.vimeo.com/video/546426014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            style={{ width: '100%', height: '100%' }}
             title="MyBalance.mov"
           >
           </iframe>
+          <div className={styles.storeButtonsContainer}>
+            <a className={styles.playStoreButton} href='https://play.google.com/store/apps/details?id=earth.mybalance.mybalance&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+              <img width="auto" height="64" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+            </a>
+            <a className={styles.appStoreButton} href='https://apps.apple.com/gb/app/mybalance/id1501751263'>
+              <img width="auto" height="44" alt='Download from the App Store' src='/assets/img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' />
+            </a>
+          </div>
         </div>
       </section>
     </>
