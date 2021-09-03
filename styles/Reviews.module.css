@@ -1,0 +1,42 @@
+.mainContainer {
+  height: fit-content;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.reviewsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 500px) {
+  .reviewsWrapper {
+    width: 75%;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .review {
+    width: 33%;
+  }
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.reviewBody {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 120%;
+}
+
+.reviewerName {
+  font-family: "Helvetica Neue", sans-serif;
+}

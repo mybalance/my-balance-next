@@ -7,6 +7,7 @@ import Steps from "../components/Steps";
 import Team from "../components/Team";
 import Contact from "../components/Contact";
 import VideoSection from "../components/VideoSection";
+import Reviews from '../components/Reviews';
 import Footer from '../components/Footer';
 
 const home = () => {
@@ -34,6 +35,8 @@ const home = () => {
 
       {/* Steps component */}
       <Steps />
+
+      <Reviews />
 
       {/* Team section */}
       <Team />
