@@ -1,8 +1,15 @@
 import React from "react";
 import Head from "next/head";
+import { useInView } from 'react-intersection-observer';
 import styles from "../styles/Reviews.module.css";
 
 const Reviews = () => {
+    const { ref, inView, entry } = useInView({
+        /* Optional options */
+        threshold: 0.1,
+        triggerOnce: true,
+    });
+
     return (
         <>
             <Head>
@@ -13,7 +20,7 @@ const Reviews = () => {
             </Head>
 
             <section className={styles.mainContainer}>
-                <div className={styles.reviewsWrapper}>
+                <div ref={ref} className={`${styles.reviewsWrapper} animateSection ${inView && 'animateSection-transition'}`}>
                     <div className={styles.review}>
                         <p className={styles.reviewBody}>I love how easy the app makes getting an estimate of my carbon footprint, and lays out really quick and simple ways for me to offset it. Great stuff🙌</p>
                         <p className={styles.reviewerName}>- Lemondropz180</p>
