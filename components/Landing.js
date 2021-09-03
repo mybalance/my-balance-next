@@ -18,16 +18,7 @@ const Landing = () => {
           <p className={styles.subheader}>With the MyBalance app and platform, you'll have a simple, effective method of measuring, reducing, and offsetting your tenants' carbon footprint.</p>
         </div>
         <div className={styles.phoneContainer}>
-          <iframe
-            className={styles.video}
-            src="https://player.vimeo.com/video/546426014?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-            frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture"
-            allowfullscreen
-            style={{ width: '100%', height: '100%' }}
-            title="MyBalance.mov"
-          >
-          </iframe>
+          <img className={styles.phoneImage} src={'/screenshot_main.png'} width={816} height={1591} />
           <div className={styles.storeButtonsContainer}>
             <a className={styles.playStoreButton} href='https://play.google.com/store/apps/details?id=earth.mybalance.mybalance&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
               <img width="auto" height="64" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
