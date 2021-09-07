@@ -14,8 +14,8 @@ const Landing = () => {
 
       <section className={styles.mainContainer} id="home">
         <div className={styles.headerContainer}>
-          <h1 className={styles.header}><span className={styles.headerColour}>Measure</span>, <span className={styles.headerColour}>reduce</span>, and <span className={styles.headerColour}>offset</span> your tenants' carbon.</h1>
-          <p className={styles.subheader}>With the MyBalance app and platform, you'll have a simple, effective method of measuring, reducing, and offsetting your tenants' carbon footprint.</p>
+          <h1 className={styles.header}><span className={styles.headerColour}>Low</span> <span className={styles.headerColour}>carbon</span> <span className={styles.headerColour}>living</span>.</h1>
+          <p className={styles.subheader}>With the MyBalance app and platform, you'll have a simple, effective method of measuring, reducing, and offsetting your carbon footprint.</p>
         </div>
         <div className={styles.phoneContainer}>
           <img className={styles.phoneImage} src={'/screenshot_main.png'} width={816} height={1591} />

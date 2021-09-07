@@ -21,31 +21,21 @@ const home = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
 
-      {/* Navigation component */}
+      {/* Nav component */}
       <Navigation />
 
-      {/* Landing component */}
+      {/* Section components */}
+      {/* These sections need contrast. At the moment, there isn't much that makes one section distinct from another.  */}
+      {/* Use a different font colour for the body text and the headings.  */}
+      {/* Add box shadow to the nav on scroll.  */}
       <Landing />
-
-      {/* Video section */}
       <VideoSection />
-
-      {/* Intro text component */}
       <IntroText />
-
-      {/* Steps component */}
       <Steps />
-
       <Reviews />
-
-      {/* Team section */}
       <Team />
-
-      {/* Contact section */}
       <Contact />
-
-      {/* <Footer /> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

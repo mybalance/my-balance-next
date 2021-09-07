@@ -1,10 +1,12 @@
 .mainContainer {
   height: fit-content;
-  background-color: #f8f8f8;
+  background-color: var(--balance-teal);
   display: flex;
   flex-direction: column;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  padding: 3rem 1rem;
+  /* I added padding directly above to keep spacing consistent. */
 }

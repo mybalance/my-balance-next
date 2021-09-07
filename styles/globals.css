@@ -1,11 +1,31 @@
+:root {
+  /* Text */
+  --header-text: "Merriweather", sans-serif;
+  --body-text: "Helvetica Neue", serif;
+  --header-text-size: 3rem;
+  --header-text-size-handheld: 2.25rem;
+  --body-text-size: 1.2rem;
+  --body-text-size-handheld: 1.1rem;
+  --line-height: 150%;
+  --line-height-handheld: 125%;
+
+  /* Colours */
+  --main-underline: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
+  --text-colour: #04080F;
+  --balance-teal: #007C7A;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .animateSection {
-  opacity: 0;
-  transform: scale(1.2);
+  /* opacity: 0;
+  transform: scale(1.2); */
+  /* I'm removing these styles for the moment because of the horizontal scroll issue. */
+  opacity: 1;
+  transform: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -18,3 +38,4 @@ body {
   opacity: 1;
   transform: none;
 }
+/* Teal: #007C7A */

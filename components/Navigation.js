@@ -48,7 +48,7 @@ const Navigation = () => {
 			{/* Main navbar */}
 			<navbar className={styles.navbar}>
 				<div>
-					<Link href="#home-top">
+					<Link href="/#home">
 						<h1 className={styles.brand} >MyBalance</h1>
 					</Link>
 				</div>
