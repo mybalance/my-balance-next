@@ -6,8 +6,8 @@
 
 /* Header styles */
 .header {
-  font-family: "Merriweather", serif;
-  font-size: 3.5rem;
+  font-family: var(--header-text);
+  font-size: var(--header-text-size);
   color: #04080F;
   text-align: left;
   margin: 0 16rem 2rem 16rem;
@@ -16,7 +16,7 @@
 
 @media (max-width: 1000px) {
   .header {
-    font-size: 2.75rem;
+    font-size: var(--header-text-size-handheld);
     margin: 4rem 4rem;
   }
 }
@@ -33,13 +33,6 @@
   }
 }
 
-
-@media (max-width: 300px) {
-  .header {
-    font-size: 2.25rem;
-  }
-}
-
 .headerColour {
   background-image: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
   background-repeat: no-repeat;
@@ -50,24 +43,22 @@
 
 /* Subheader styles */
 .subheader {
-  font-size: 1.5rem;
-  font-family: "Helvetica Neue", sans-serif;
+  font-size: var(--body-text-size);
+  font-family: var(--body-text);
   color: #04080F;
   text-align: left;
   margin: 0 16rem 4rem 16rem;
-  text-align: left;  
 }
 
 @media (max-width: 1000px) {
   .subheader {
-    font-size: 1.5rem;
+    font-size: var(--body-text-size-handheld);
     margin: 0 4rem 4rem 4rem;
   }
 }
 
 @media (max-width: 750px) {
   .subheader {
-    font-size: 1.25rem;
     margin: 0 4rem 2rem 4rem;
   }
 }
@@ -81,7 +72,6 @@
 /* Row styles */
 .rowContainer {
   height: fit-content;
-  /* width: 100%; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
