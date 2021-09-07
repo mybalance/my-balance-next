@@ -1,0 +1,56 @@
+.mainContainer {
+  margin: 0 6rem;
+  padding: 10rem 0 5rem 0;
+}
+
+@media (max-width: 750px) {
+  .mainContainer {
+    margin: 0 4rem;
+    padding: 8rem 0 4rem 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainContainer {
+    margin: 0 1rem
+  }
+}
+
+.headerMain {
+  font-family: var(--header-text);
+  font-size: var(--header-text-size);
+  margin: 0 0 1rem 0;
+}
+
+@media (max-width: 1000px) {
+  .headerMain {
+    font-size: var(--header-text-size-handheld);
+  }
+}
+
+.header {
+  font-family: var(--header-text);
+  font-size: 2rem;
+  margin: 4rem 0 1rem 0;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 1.5rem;
+  }
+}
+
+.text {
+  font-family: var(--body-text);
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  margin: 1rem 0;
+  max-width: 70vw;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    max-width: none;
+    font-size: var(--body-text-size-handheld);
+  }
+}
