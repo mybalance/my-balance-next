@@ -1,7 +1,7 @@
 :root {
   /* Text */
-  --header-text: "Merriweather", sans-serif;
-  --body-text: "Helvetica Neue", serif;
+  --header-text: "Merriweather", serif;
+  --body-text: "Helvetica Neue", sans-serif;
   --header-text-size: 3rem;
   --header-text-size-handheld: 2.25rem;
   --body-text-size: 1.2rem;
