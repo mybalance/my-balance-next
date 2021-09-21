@@ -1,16 +1,25 @@
+import Head from "next/head";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    // <Layout>
-      <Component {...pageProps} />
-    // </ Layout>
+    <>
+    <Head>
+        <link 
+          // Lato
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" 
+          rel="stylesheet"
+
+          // Merriweather
+          // href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap"
+          // rel="stylesheet"
+
+        />  
+    </Head>
+
+    <Component {...pageProps} />
+    </>
   )
 }
 
 export default MyApp;
-
-// on page load, bring in a random image from an array
-
-// Server side, or backend: runs on the server on which your website is running
-// Client side, or frontend: runs on the browser on which your website is loaded
