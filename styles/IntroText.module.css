@@ -1,6 +1,6 @@
 .mainContainer {
   height: fit-content;
-  background-color: #f8f8f8;
+  background-color: var(--main-off-white);
   display: flex;
   flex-direction: column;
 }

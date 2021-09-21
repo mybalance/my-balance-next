@@ -6,15 +6,19 @@ const Landing = () => {
   return (
     <>
       <Head>
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap"
           rel="stylesheet"
-        />
+        /> */}
+        <link 
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" 
+          rel="stylesheet">
+        </link>
       </Head>
 
       <section className={styles.mainContainer} id="home">
         <div className={styles.headerContainer}>
-          <h1 className={styles.header}><span className={styles.headerColour}>Low</span> <span className={styles.headerColour}>carbon</span> <span className={styles.headerColour}>living</span>.</h1>
+          <h1 className={styles.header}><span className={styles.headerColour}>Low</span>-<span className={styles.headerColour}>carbon</span> <span className={styles.headerColour}>living</span>. <span className={styles.headerTextColour}>For everyone.</span></h1>
           <p className={styles.subheader}>With the MyBalance app and platform, you'll have a simple, effective method of measuring, reducing, and offsetting your carbon footprint.</p>
         </div>
         <div className={styles.phoneContainer}>
@@ -32,8 +36,5 @@ const Landing = () => {
     </>
   )
 }
-
-// https://coolors.co/007c7a-99ddc8-95bf74-04080f-c492b1
-// https://coolors.co/007c7a-a6ece0-7adfbb-031926-0a1128
 
 export default Landing;

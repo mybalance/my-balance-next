@@ -1,7 +1,9 @@
 :root {
   /* Text */
-  --header-text: "Merriweather", serif;
-  --body-text: "Helvetica Neue", sans-serif;
+  /* --header-text: "Merriweather", serif; */
+  --header-text: "Lato", sans-serif;
+  --body-text: "Lato", sans-serif;
+  /* --body-text: "Helvetica Neue", sans-serif; */
   --header-text-size: 3rem;
   --header-text-size-handheld: 2.25rem;
   --body-text-size: 1.2rem;
@@ -12,7 +14,14 @@
   /* Colours */
   --main-underline: linear-gradient(100deg, #7ADFBB 0%, #A6ECE0 100%);
   --text-colour: #04080F;
+  --text-white: #E8F1F2;
   --balance-teal: #007C7A;
+  --main-off-white: #f8f8f8;
+  --off-white: #DAE3E5;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
