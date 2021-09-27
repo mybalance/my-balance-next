@@ -41,3 +41,6 @@ const home = () => {
 }
 
 export default home;
+
+// https://coolors.co/007c7a-99ddc8-95bf74-04080f-c492b1
+// https://coolors.co/007c7a-a6ece0-7adfbb-031926-0a1128
