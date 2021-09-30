@@ -12,7 +12,7 @@ const PostPage = (props) => {
       <img 
         src={props.frontmatter.cover_image}
       />
-      <div>{props.content}</div>
+      <div dangerouslySetInnerHTML={{__html: marked(props.content)}}></div>
       <Link href="/blog">Go back</Link>
     </>
   )

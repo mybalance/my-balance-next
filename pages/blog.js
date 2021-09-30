@@ -4,6 +4,10 @@ import matter from "gray-matter";
 import Post from "../components/Post";
 import styles from "../styles/Blog.module.css";
 
+const sortByDate = (a, b) => {
+  return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+};
+
 const Blog = (props) => {
   console.log(props.posts)
   return (
@@ -43,7 +47,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts
+      posts: posts.sort(sortByDate)
     }
   }
 };
