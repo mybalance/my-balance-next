@@ -22,7 +22,9 @@
 
 html {
   scroll-behavior: smooth;
+  /* Turn this off on the blog pages.  */
 }
+
 
 body {
   margin: 0;

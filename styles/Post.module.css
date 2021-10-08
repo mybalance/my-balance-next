@@ -1,0 +1,108 @@
+.card {
+  position: relative;
+  height: 30rem;
+  width: 20rem;
+  border: 2px solid lightgrey;
+  border-radius: .75rem;
+  overflow: hidden;
+  padding: 1rem;
+  /* box-shadow: 1rem .8rem 2rem rgba(0, 0, 0, 0.5);  */
+  /* horizontal, vertical, blur */
+  background-color: white;
+  transition: all .75s ease;
+}
+
+.card:hover {
+  background-color: #f8f8f8;
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 18rem
+  }
+}
+
+@media (max-width: 300px) {
+  .card {
+    width: 12.5rem;
+    height: 25rem;
+  }
+}
+
+.imageContainer {
+  width: 100%;
+  height: 40%;
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+  overflow: hidden;
+}
+
+.header {
+  font-family: "Lato", sans-serif;
+  margin: 1rem 0;
+}
+
+.infoContainer {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: chocolate; */
+  margin-bottom: 1rem;
+}
+
+.authorCircle {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  margin: 0 .5rem 0 0;
+  background-image: url("/assets/img/rhys_picture.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.author {
+  font-family: "Lato", sans-serif;
+  margin: 0 .5rem 0 0; 
+}
+
+.date { 
+  font-family: "Lato", sans-serif;
+  margin: 0 .5rem 0 0;
+}
+
+.textContainer {
+  width: 100%;
+  height: 6rem;
+  overflow: hidden;
+}
+
+/* .fade {
+  position: absolute;
+  top: 3rem;
+  width: 100%;
+  height: 3rem;
+  background: linear-gradient(transparent, white);
+} */
+
+.text {
+  font-family: "Lato", sans-serif;
+  margin: 0 0;
+  line-height: 135%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1rem;
+  font-family: "Lato", sans-serif;
+  cursor: pointer;
+  margin: 0 0;
+}
