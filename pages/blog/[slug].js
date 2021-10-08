@@ -3,17 +3,36 @@ import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
 import Link from "next/link";
+import Navigation from "../../components/Navigation";
+import Footer from "../../components/Footer";
+import styles from "../../styles/Slug.module.css";
 
 const PostPage = (props) => {
+  const article = props.frontmatter;
+
   return (
     <>
-      <h1>{props.frontmatter.title}</h1>
-      <h4>{props.frontmatter.date}</h4>
-      <img 
-        src={props.frontmatter.cover_image}
-      />
-      <div dangerouslySetInnerHTML={{__html: marked(props.content)}}></div>
-      <Link href="/blog">Go back</Link>
+      <Navigation />
+        <div className={styles.mainContainer}>
+          <h1 className={styles.header}>{article.title}</h1>
+          <div className={styles.infoContainer}>
+            <span className={styles.authorCircle}></span>
+            <h4 className={styles.author}>{article.author}</h4>
+            <h4 className={styles.date}>{article.date}</h4>
+          </div>
+          <div className={styles.imageContainer}>
+            <img className={styles.image} 
+              src={article.cover_image}
+            />
+          </div>
+          <div className={styles.text} dangerouslySetInnerHTML={{__html: marked(props.content)}}></div>
+          <Link href="/blog">
+            <div className={styles.button}>
+              <p className={styles.buttonText}>Go back</p>
+            </div>
+          </Link>
+        </div>
+      <Footer />
     </>
   )
 }

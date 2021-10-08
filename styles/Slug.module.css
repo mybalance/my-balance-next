@@ -1,0 +1,85 @@
+.mainContainer {
+  /* margin: 0rem 20rem; */
+  padding: 10rem 20rem 5rem 20rem;
+  /* background-color: #f8f8f8; */
+  background-color: white;
+}
+
+.header {
+  font-family: var(--header-text);
+  font-size: var(--header-text-size);
+  font-weight: 600;
+  color: #04080F;
+  margin: 0 0;
+  text-align: left;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  /* background-color: tomato; */
+}
+
+.authorCircle {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  margin: 0 1.5rem 0 0;
+  background-image: url("/assets/img/rhys_picture.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.date {
+  font-family: var(--header-text);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #04080F;
+  text-align: left;
+}
+
+.author {
+  font-family: var(--header-text);
+  font-size: 1rem;
+  font-weight: 400;
+  color: #04080F;
+  margin: 0 1.5rem 0 0;
+  text-align: left;
+}
+
+.imageContainer {
+  width: 100%; 
+  /* height: 40rem */
+}
+
+.image {
+  width: 100%
+}
+
+.text {
+  font-size: var(--body-text-size);
+  font-family: var(--body-text);
+  color: var(--text-colour);
+  text-align: left;
+  line-height: 175%;
+}
+
+.button {
+  height: 4rem;
+  width: 10rem;
+  background-color: var(--balance-teal);
+  display: grid;
+  place-items: center;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.buttonText {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 0;
+}

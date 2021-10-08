@@ -60,14 +60,17 @@ const Navigation = () => {
 				{
 					size > 1000 ?
 						<div className={styles.itemTwo}>
-							<Link href="#works">
+							<Link href="/#works">
 								<p className={styles.navItem}>How it works</p>
 							</Link>
-							<Link href="#team">
+							<Link href="/#team">
 								<p className={styles.navItem}>Meet the team</p>
 							</Link>
-							<Link href="#contact">
+							<Link href="/#contact">
 								<p className={styles.navItem}>Get in touch</p>
+							</Link>
+							<Link href="/blog">
+								<p className={styles.navItem}>Blog</p>
 							</Link>
 						</div>
 					:
@@ -90,6 +93,9 @@ const Navigation = () => {
 					</Link>
 					<Link href="#team">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Meet the team</h2>
+					</Link>
+					<Link href="/blog">
+						<h2 className={styles.overlayItem} onClick={handleClick}>Blog</h2>
 					</Link>
 					<Link href="#contact">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Contact</h2>
