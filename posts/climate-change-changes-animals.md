@@ -1,8 +1,8 @@
 ---
 title: "Climate change changes animals"
 author: "Rhys Jenkins"
-date: "17 September 2021"
-subheading: "The warming of the planet can have serious effects on a variety of ecosystems. Elit ea irure enim ea. Incididunt excepteur aute adipisicing elit cillum eiusmod Lorem culpa."
+date: "10 September 2021"
+subheading: "The warming of the planet can have serious effects on a variety of ecosystems. Which animals are affected and is there anything to be done?"
 cover_image: "/assets/img/newsfeed/animals_header.png"  
 ---
 
