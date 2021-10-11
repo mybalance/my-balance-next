@@ -2,7 +2,7 @@
 title: "Deforestation and the climate"
 author: "Rhys Jenkins"
 date: "17 September 2021"
-subheading: "How does deforestation affect the climate?"
+subheading: "How does deforestation affect the climate? And what can be done about the state of the world's forests in the coming decades?"
 cover_image: "/assets/img/newsfeed/deforestation_header.png"   
 ---
 

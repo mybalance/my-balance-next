@@ -1,7 +1,7 @@
 ---
 title: "Why is flying so bad for the environment?"
 author: "Rhys Jenkins"
-date: "10 September 2021"
+date: "27 August 2021"
 subheading: "Flying has significant effects on the environment. Why is this the case and what can we do about it?"
 cover_image: "/assets/img/newsfeed/flying_header.png"   
 ---
