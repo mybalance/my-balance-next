@@ -177,30 +177,30 @@
 
 .descriptionNotVis {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   visibility: hidden;
   opacity: 0;
   color: whitesmoke;
   transition: all 1s ease;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1250px) {
   .descriptionNotVis {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 }
 
 .descriptionVis {
   font-family: "Helvetica Neue", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   opacity: 1;
   color: whitesmoke;
   transition: all 1s ease;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1250px) {
   .descriptionVis {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 }
 
