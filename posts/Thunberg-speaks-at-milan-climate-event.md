@@ -1,7 +1,7 @@
 ---
 title: "Thunberg speaks at Milan climate event"
 author: "Rhys Jenkins"
-date: "1 Ocotber 2021"
+date: "1 October 2021"
 subheading: "Greta Thunberg speaks at the Youth 4 Climate event in Milan. Her message to world leaders? There's much more for everyone to do."
 cover_image: "/assets/img/newsfeed/thunberg_milan_header.png"   
 ---

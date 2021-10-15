@@ -12,7 +12,7 @@ const sortByDate = (a, b) => {
 };
 
 const Blog = (props) => {
-  console.log(props.posts)
+  // console.log(props.posts);
   return (
     <>
       <Head>
