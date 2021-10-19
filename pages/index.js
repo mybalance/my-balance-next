@@ -22,14 +22,12 @@ const home = () => {
       setCookiePopup(false);
       setAnalyticsInit(true);
       getAnalytics();
-      console.log("Google analytics are working.");
     }
   });
 
   const trackingFunction = () => {
     setCookiePopup(false);
     localStorage.setItem("cookies", true);
-    console.log("Cookies are set.")
   };
 
   const rejectFunction = () => {
