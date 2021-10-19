@@ -1,0 +1,87 @@
+.container {
+  width: 30rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: .15rem solid black;
+  position: fixed;
+  bottom: 3rem;
+  left: 3rem;
+  z-index: 50;
+  border-radius: .75rem;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: calc(100% - 3.3rem); /* .3 + .1 or .15 + .15 + .5 + .5  */
+    bottom: 1rem;
+    left: 1rem;
+    padding: .5rem;
+  }
+}
+
+.header {
+  font-family: "Lato", sans-serif;
+  font-size: 1.75rem;
+  color: black;
+  margin: 0 0 1rem 0;
+}
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 1.5rem;
+  }
+}
+
+.text {
+  font-family: "Lato", sans-serif;
+  color: black;
+  line-height: 135%;
+  margin: 0 0 1rem 0;
+}
+
+.buttonContainer {
+  display: flex;
+}
+
+.button {
+  height: 3rem;
+  width: 10rem;
+  background-color: #40e0d0;
+  border-radius: .25rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .button {
+    height: 2.5rem;
+    width: 8rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.buttonReject {
+  height: 3rem;
+  width: 10rem;
+  margin-right: 2rem;
+  background-color: #F95738;
+  border-radius: .25rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .buttonReject {
+    height: 2.5rem;
+    width: 8rem;
+    margin-right: 1.5rem;
+  }
+}
+
+.buttonText {
+  font-family: "Lato", sans-serif;
+  color: black;
+  margin: 0 0;
+}

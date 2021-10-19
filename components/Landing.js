@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import styles from "../styles/Landing.module.css";
+import {useEffect} from "react";
 
 const Landing = () => {
   return (
