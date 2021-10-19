@@ -12,7 +12,7 @@
 
 @media (max-width: 500px) {
   .container {
-    width: calc(100% - 3.3rem); /* .3 + .1 or .15 + .15 + .5 + .5  */
+    width: calc(100% - 3.3rem); /* 3.3rem is the result of padding, left and border */
     bottom: 1rem;
     left: 1rem;
     padding: .5rem;
