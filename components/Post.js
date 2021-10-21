@@ -15,7 +15,7 @@ const Post = (props) => {
         </div>  
         <h2 className={styles.header}>{props.post.frontmatter.title}</h2>
         <div className={styles.infoContainer}>
-          <span className={styles.authorCircle}></span>
+          <span className={styles.authorCircle}></span>  
           <h4 className={styles.author}>{props.post.frontmatter.author}</h4>
           <h4 className={styles.date}>{props.post.frontmatter.date}</h4>
         </div>

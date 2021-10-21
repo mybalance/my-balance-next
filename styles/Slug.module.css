@@ -43,8 +43,8 @@
 }
 
 .authorCircle {
-  height: 2.25rem;
-  width: 2.25rem;
+  min-height: 2.25rem;
+  min-width: 2.25rem;
   border-radius: 50%;
   margin: 0 1.5rem 0 0;
   background-image: url("/assets/img/rhys_picture.jpg");
