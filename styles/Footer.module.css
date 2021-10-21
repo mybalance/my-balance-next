@@ -28,7 +28,7 @@
   font-size: var(--body-text-size-handheld);
   font-family: var(--body-text);
   color: var(--text-colour);
-  text-align: left;
+  text-align: center;
   margin: 4rem 2rem 4rem 0;
 }
 
