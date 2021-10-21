@@ -29,8 +29,9 @@
     height: fit-content;
     width: fit-content;
     min-height: auto;
-    margin: 10rem 4rem 0rem 4rem;
-    padding: 0 0; 
+    /* margin: 10rem 4rem 0rem 4rem; */
+    padding: 10rem 4rem 0rem 4rem;
+    /* padding: 0 0;  */
   }
 }
 
@@ -68,6 +69,7 @@
   .phoneContainer {
     place-self: center;
     width: calc(100% - 12rem);
+    width: 100%;
     margin: 0 0;
     padding: 0 0;
   }
