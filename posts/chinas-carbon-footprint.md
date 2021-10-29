@@ -4,6 +4,7 @@ author: "Rhys Jenkins"
 date: "15 October 2021"
 subheading: "China is the global leader in carbon emissions, and without change from China, there's little that can practically be done against climate change. Will COP26 change things?"
 cover_image: "/assets/img/newsfeed/china_header.jpg"  
+tags: ["china", "footprint", "global"]
 ---
 
 In the global race to net-zero carbon emissions, there is really only one major player. China is responsible for over a quarter of the world’s carbon emissions. 

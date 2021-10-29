@@ -4,6 +4,7 @@ author: "Rhys Jenkins"
 date: "26 July 2021"
 subheading: "What does the UK's current heatwave tell us about the climate? And how can we prepare our homes and offices to be more sustainable over the coming years?"
 cover_image: "/assets/img/newsfeed/heatwave_header.png"   
+tags: ["heatwave"]
 ---
 
 Over the past couple of weeks we’ve experienced some absolutely baking heat here in the UK. And since most of us don’t have air conditioning units in our homes, there has been little respite from the often overwhelming weather.
