@@ -3,7 +3,8 @@ title: "What is COP26?"
 author: "Rhys Jenkins"
 date: "24 September 2021"
 subheading: "What is COP26 and what can the public expect from the event? COP26 will be attended by many of the world's foremore climate experts and advisors."
-cover_image: "/assets/img/newsfeed/cop26_header.png"   
+cover_image: "/assets/img/newsfeed/cop26_header.png"  
+tags: ["cop26"] 
 ---
 
 The 26th Conference of the Parties, COP26, is an event attended by roughly 30,000 delegates from 197 countries across the world.

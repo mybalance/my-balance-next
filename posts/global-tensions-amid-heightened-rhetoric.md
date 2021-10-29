@@ -3,7 +3,8 @@ title: "Global tensions amid heightened rhetoric"
 author: "Rhys Jenkins"
 date: "22 October 2021"
 subheading: "The words we use to describe climate change have become more urgent amid a predicted rise in global tensions due to potential disagreements on climate."
-cover_image: "/assets/img/newsfeed/united_header.png"  
+cover_image: "/assets/img/newsfeed/united_header.png"
+tags: ["China", "USA", "Language"]  
 ---
 
 While tensions exist between many different states across the globe, a new report from the National Intelligence Estimate on Climate Change, a joint effort from America’s 18 intelligence agencies, argues that the planet’s changing climate will add yet more fuel to the fire of international tensions.

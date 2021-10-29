@@ -4,6 +4,7 @@ author: "Rhys Jenkins"
 date: "27 August 2021"
 subheading: "Flying has significant effects on the environment. Why is this the case and what can we do about it?"
 cover_image: "/assets/img/newsfeed/flying_header.png"   
+tags: ["flying"]
 ---
 
 While once only available to the rich, over the past thirty years or so flying has become an affordable travel option for everyone.
