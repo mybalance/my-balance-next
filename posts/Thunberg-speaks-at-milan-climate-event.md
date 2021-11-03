@@ -4,7 +4,7 @@ author: "Rhys Jenkins"
 date: "1 October 2021"
 subheading: "Greta Thunberg speaks at the Youth 4 Climate event in Milan. Her message to world leaders? There's much more for everyone to do."
 cover_image: "/assets/img/newsfeed/thunberg_milan_header.png"
-tags: ["milan"]   
+tags: ["milan", "thunberg", "activist"]   
 ---
 
 While climate activist Greta Thunberg probably didn’t mean to reference Baddiel and Skinner’s classic football anthem, she nonetheless referred to political efforts to fight climate change as “30 years of blah, blah, blah” at a recent event in Milan.
