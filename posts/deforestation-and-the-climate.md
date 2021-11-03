@@ -4,7 +4,7 @@ author: "Rhys Jenkins"
 date: "17 September 2021"
 subheading: "How does deforestation affect the climate? And what can be done about the state of the world's forests in the coming decades?"
 cover_image: "/assets/img/newsfeed/deforestation_header.png"
-tags: ["deforestation"]   
+tags: ["deforestation", "forest", "amazon"]   
 ---
 
 Deforestation is an important factor in the planet’s warming climate.

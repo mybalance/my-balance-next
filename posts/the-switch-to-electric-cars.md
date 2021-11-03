@@ -4,7 +4,7 @@ author: "Rhys Jenkins"
 date: "8 October 2021"
 subheading: "The motoring world is heading towards electric cars. How will these vehicles change the way we travel and what infrastructure is required?"
 cover_image: "/assets/img/newsfeed/electric_cars_header.png"
-tags: ["electric"]   
+tags: ["electric", "infrastructure", "cars"]   
 ---
 
 Electric cars are the future of motoring. In the UK, in thirty years, probably less, petrol and diesel cars will be seen as relics of a past age. 
