@@ -85,19 +85,19 @@ const Navigation = () => {
 			{/* Overlay */}
 			<div className={overlay} onClick={handleClick}>
 				<div className={styles.overlayContainer}>
-					<Link href="#home">
+					<Link href="/#home">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Home</h2>
 					</Link>
-					<Link href="#works">
+					<Link href="/#works">
 						<h2 className={styles.overlayItem} onClick={handleClick}>How it works</h2>
 					</Link>
-					<Link href="#team">
+					<Link href="/#team">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Meet the team</h2>
 					</Link>
 					<Link href="/blog">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Blog</h2>
 					</Link>
-					<Link href="#contact">
+					<Link href="/#contact">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Contact</h2>
 					</Link>
 				</div>
