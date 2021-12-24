@@ -4,7 +4,7 @@ author: "Rhys Jenkins"
 date: "17 December 2021"
 subheading: "On opposite ends of the Earth, scientists measure the effects of warming on vast fields of ice."
 cover_image: "/assets/img/newsfeed/arctic_header.png"
-tags: ["artic", "antarctic", "ice"]   
+tags: ["arctic", "antarctic", "ice"]   
 ---
 
 The Siberian town of Verkhoyansk, in Russia’s Sakha Republic, recently recorded the highest ever temperature in the Arctic, a balmy 38 degrees celsius.
