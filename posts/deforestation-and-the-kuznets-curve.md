@@ -41,6 +41,6 @@ As global poverty continues this trend throughout the course of the 21st century
 
 Or, to put it another way, as the world grows richer, it will grow greener.
 
-Which is a pretty good Christmas message, all things considered. 
+Which is a pretty good message for this time of year, all things considered. 
 
 Merry Christmas!
