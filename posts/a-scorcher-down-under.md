@@ -1,8 +1,8 @@
 ---
 title: "A scorcher Down Under"
 author: "Rhys Jenkins"
-date: "14 January 2021"
-subheading: "The EU reports that the past seven years have been the warmest on record and a record is set in the Pilbara."
+date: "14 January 2022"
+subheading: "The EU reports that the past seven years have been the warmest on record and another record is set in the Pilbara."
 cover_image: "/assets/img/newsfeed/pilbara_header.png"   
 tags: ["heatwave", "australia", "eu", "weather"]
 ---
