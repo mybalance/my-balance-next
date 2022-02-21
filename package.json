@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "feather-icons": "^4.28.0",
+    "feed": "^4.2.2",
     "firebase": "^9.1.2",
     "fuse.js": "^6.4.6",
     "gray-matter": "^4.0.3",
