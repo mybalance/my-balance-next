@@ -40,5 +40,6 @@ export const generateRSSFeed = (articles) => {
 
     // Write the RSS output to a public file
     fs.writeFileSync('public/blog/rss.xml', feed.rss2());
-    console.log("Written out RSS feed")
+
+    console.log("\nWritten out RSS feed")
 };
