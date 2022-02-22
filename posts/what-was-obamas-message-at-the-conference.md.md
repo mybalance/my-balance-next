@@ -6,7 +6,6 @@ subheading: "Former US President addressed the conference earlier today -- what 
 cover_image: "/assets/img/newsfeed/obama_header.png"  
 tags: ["cop26", "obama"]
 ---
-
 As COP26 enters its second week, a variety of important figures will continue to address the delegates, including former secretary-general of the UN Ban Ki-Moon and former US President Barack Obama.
 
 Ki-Moon was straightforward in his analysis: “We have been failing the world and we have been failing the most vulnerable communities living on the front lines.”

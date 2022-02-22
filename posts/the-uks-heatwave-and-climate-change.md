@@ -6,7 +6,6 @@ subheading: "What does the UK's current heatwave tell us about the climate? And 
 cover_image: "/assets/img/newsfeed/heatwave_header.png"   
 tags: ["heatwave", "uk", "weather"]
 ---
-
 Over the past couple of weeks we’ve experienced some absolutely baking heat here in the UK. And since most of us don’t have air conditioning units in our homes, there has been little respite from the often overwhelming weather.
 
 While air conditioning isn’t required for most of the year, we Brits can surely appreciate why most of our American friends live in air conditioned homes.

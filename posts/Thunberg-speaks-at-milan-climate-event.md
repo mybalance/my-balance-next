@@ -6,7 +6,6 @@ subheading: "Greta Thunberg speaks at the Youth 4 Climate event in Milan. Her me
 cover_image: "/assets/img/newsfeed/thunberg_milan_header.png"
 tags: ["milan", "thunberg", "activist"]   
 ---
-
 While climate activist Greta Thunberg probably didn’t mean to reference Baddiel and Skinner’s classic football anthem, she nonetheless referred to political efforts to fight climate change as “30 years of blah, blah, blah” at a recent event in Milan.
 
 The Swede excoriated world leaders for their lack of action on climate change. Referring to net-zero commitments and the green economy, Thunberg said: “This is all we hear from our so-called leaders. Words that sound great but so far have not led to action. Our hopes and ambitions drown in their empty promises.”

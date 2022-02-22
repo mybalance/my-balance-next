@@ -6,7 +6,6 @@ subheading: "Change coming to subsidy for farming as the UK leaves the European 
 cover_image: "/assets/img/newsfeed/CAP_header.png"   
 tags: ["farming", "eu", "CAP", "agriculture"]
 ---
-
 Since leaving the EU, the UK is no longer subject to the Common Agricultural Policy. The CAP is a broad range of rules and directives that governs farming in the EU. Most notably for British farmers, the CAP granted subsidies based on, broadly speaking, the amount of land that they farmed.
 
 UK farmers are no longer subject to the CAP, and, therefore, will not receive government subsidies.

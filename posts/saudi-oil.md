@@ -6,7 +6,6 @@ subheading: "The oil-rich nation is a tricky customer when it comes to climate t
 cover_image: "/assets/img/newsfeed/saudi_header.png"  
 tags: ["cop26", "saudi", "oil"]
 ---
-
 Saudi Arabia has rejected calls to phase out the use of fossil fuels.
 
 This won’t be particularly surprising to many casual observers of global politics and climate negotiations. Over half of the Kingdom’s revenues come from oil exports. 

@@ -6,7 +6,6 @@ subheading: "What is COP26 and what can the public expect from the event? COP26 
 cover_image: "/assets/img/newsfeed/cop26_header.png"  
 tags: ["cop26", "glasgow"] 
 ---
-
 The 26th Conference of the Parties, COP26, is an event attended by roughly 30,000 delegates from 197 countries across the world.
 
 These heads of state and climate experts will attempt to agree coordinated action to combat climate change.

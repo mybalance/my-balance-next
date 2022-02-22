@@ -6,7 +6,6 @@ subheading: "The Danes, and many other European countries, are looking to aviati
 cover_image: "/assets/img/newsfeed/flight_header.png"  
 tags: ["flight", "Denmark"]
 ---
-
 The Prime Minister of Denmark, Mette Frederiksen, recently announced that her government would make domestic flights fossil fuel free by 2030. 
 
 The goal, declared in Frederiksen’s New Year address, is a difficult one. The PM admitted that the technology required to meet such a lofty ambition was not currently available.

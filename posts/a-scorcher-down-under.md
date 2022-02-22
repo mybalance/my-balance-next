@@ -6,7 +6,6 @@ subheading: "The EU reports that the past seven years have been the warmest on r
 cover_image: "/assets/img/newsfeed/pilbara_header.png"   
 tags: ["heatwave", "australia", "eu", "weather"]
 ---
-
 After the EU reports that the past seven years have been the hottest on record, our Australian friends equalled their hottest day on record, a scorching 50.7 degrees celsius. 
 
 The record was first set in 1962 in South Australia, and it was matched this week in Onslow, Western Australia, way out in the Pilbara.  

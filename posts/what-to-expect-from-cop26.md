@@ -6,7 +6,6 @@ subheading: "COP26 begins this Sunday, and the eyes of the world will be on Glas
 cover_image: "/assets/img/newsfeed/glasgow_header.png"  
 tags: ["cop26", "glasgow"]
 ---
-
 COP26 begins this Sunday, and the eyes of the world will be on the heads of state that arrive in Glasgow to discuss the many issues around climate change. 
 
 What can we expect from the conference? Put simply, it’s tricky to say. Are we likely to see harmonious cooperation between nations? Certainly not. But are we likely to see fracuous and entirely unhelpful arguments for two weeks? That’s unlikely as well.

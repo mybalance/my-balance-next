@@ -6,7 +6,6 @@ subheading: "The words we use to describe climate change have become more urgent
 cover_image: "/assets/img/newsfeed/united_header.png"
 tags: ["China", "USA", "Language"]  
 ---
-
 While tensions exist between many different states across the globe, a new report from the National Intelligence Estimate on Climate Change, a joint effort from America’s 18 intelligence agencies, argues that the planet’s changing climate will add yet more fuel to the fire of international tensions.
 
 It’s not difficult to envisage a world with yet more uncooperative, combative leaders. The relationship between the US and China, two of the globe’s highest producers of carbon emissions, is already difficult for a wide variety of reasons, and yet more climate-related debate will only further pull at already-strained threads. 

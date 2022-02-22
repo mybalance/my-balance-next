@@ -6,7 +6,6 @@ subheading: "The US and China have agreed to work more closely to reduce emissio
 cover_image: "/assets/img/newsfeed/agreement_header.png"  
 tags: ["us", "china", "cop26"]
 ---
-
 As COP26 comes to a close, we can end with some good news. America and China have agreed to increase their cooperation on climate issues. 
 
 Both states will “recall their firm commitment to work together” in order to bring warming down to manageable levels. 

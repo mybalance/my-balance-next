@@ -6,7 +6,6 @@ subheading: "The motoring world is heading towards electric cars. How will these
 cover_image: "/assets/img/newsfeed/electric_cars_header.png"
 tags: ["electric", "infrastructure", "cars"]   
 ---
-
 Electric cars are the future of motoring. In the UK, in thirty years, probably less, petrol and diesel cars will be seen as relics of a past age. 
 
 What’s more, a joint study from the universities of Exeter, Nijmegen, and Cambridge predicts that by 2050 one in two cars will be electric across the world. Such a change would decrease carbon emissions by roughly 1.5 gigatonnes per year. 

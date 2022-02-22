@@ -6,7 +6,6 @@ subheading: "The latest report from the UK's Climate Change Committee was releas
 cover_image: "/assets/img/newsfeed/ccc_latest_header.png"  
 tags: ["ccc"]
 ---
-
 The UK’s Climate Change Committee, the CCC, has stated that the UK government must step up its plans if it is to reach 2030 emissions targets in a report released today.
 
 While the UK does have one of the most ambitious 2030 plans, the policies required are not yet in place to achieve the government’s goals. 

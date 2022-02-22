@@ -6,7 +6,6 @@ subheading: "While the planet is losing forest cover year on year, the picture i
 cover_image: "/assets/img/newsfeed/forestScene_header.png"  
 tags: ["deforestation", "kuznets"]
 ---
-
 As countries become richer, both politicians and the public tend to care more about the environment. 
 
 So goes the economic theory known as the Kuznets curve. Named for the economist Simon Kuznets, the Kuznets curve, when applied to the environment, states that as a country begins to develop economically, the environment will worsen, but, once a threshold has been reached, the environment will begin to drastically improve.

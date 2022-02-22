@@ -6,7 +6,6 @@ subheading: "COP26 kicks off today in Glasgow, and the great and the good are th
 cover_image: "/assets/img/newsfeed/optimism_header.png"  
 tags: ["cop26", "glasgow"]
 ---
-
 2.7 degrees of warming by the end of this century would be a “climate catastrophe”, according to the UN. 
 
 But that’s exactly where we’re heading at the moment. 

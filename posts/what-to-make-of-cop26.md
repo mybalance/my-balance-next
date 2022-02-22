@@ -6,7 +6,6 @@ subheading: "Now that the conference is over, what do the experts make of what h
 cover_image: "/assets/img/newsfeed/make_header.png"  
 tags: []
 ---
-
 What has happened in the low-carbon world since COP26? While the conference yielded some promising agreements -- from agreements on deforestation to methane reduction -- there are nonetheless significant hurdles that must be overcome if the globe is going to keep warming to manageable levels.  
 
 Indeed, scientists who recently spoke to the BBC were pessimistic that the politicians who made the promises in question would actually keep them. What’s more, they agreed that limiting warming to 1.5 degrees was not ambitious enough. 

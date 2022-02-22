@@ -6,7 +6,6 @@ subheading: "How does deforestation affect the climate? And what can be done abo
 cover_image: "/assets/img/newsfeed/deforestation_header.png"
 tags: ["deforestation", "forest", "amazon"]   
 ---
-
 Deforestation is an important factor in the planet’s warming climate.
 
 Since 1990, we have lost over 420 million hectares of forest, an area roughly the size of South Africa.

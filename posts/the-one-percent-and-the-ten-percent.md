@@ -6,7 +6,6 @@ subheading: "A new report details just how much carbon both the top one percent 
 cover_image: "/assets/img/newsfeed/percent_header.png"  
 tags: ["cop26"]
 ---
-
 Yesterday was the sixth day of COP26, and, so far, there are reasons to be relatively positive.
 
 As we discussed in a previous article, a variety of countries have agreed to terms that make a strong start in the fight to get warming down to 1.5 degrees. 

@@ -6,7 +6,6 @@ subheading: "Flying has significant effects on the environment. Why is this the 
 cover_image: "/assets/img/newsfeed/flying_header.png"   
 tags: ["flying", "holidays"]
 ---
-
 While once only available to the rich, over the past thirty years or so flying has become an affordable travel option for everyone.
 
 The coronavirus pandemic has -- and continues to -- shake up the industry, but flights still remain a reasonable choice when it comes to price. 

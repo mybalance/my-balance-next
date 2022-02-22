@@ -6,7 +6,6 @@ subheading: "The warming of the planet can have serious effects on a variety of 
 cover_image: "/assets/img/newsfeed/animals_header.png"  
 tags: ["habitat", "animals"]
 ---
-
 Since around the 1850s, the planet has warmed by roughly 1.5 degrees celsius. If the planet continues to warm, which it most likely will, we will see changes not only to the environment itself but also the animals that live in it. 
 
 Indeed, a recent study in the journal Trends in Ecology and Evolution discusses the change that the warming climate has on wildlife around the world. While climate change isn’t the only cause of these changes, it is certainly a piece of the puzzle.

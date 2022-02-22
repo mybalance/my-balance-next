@@ -6,7 +6,6 @@ subheading: "McDonald's is building net-zero buildings in order to meet net-zero
 cover_image: "/assets/img/newsfeed/mcdonalds_header.png"
 tags: ["net-zero", "mcdonalds"]   
 ---
-
 McDonald’s has opened its first net-zero restaurant in Market Drayton, Shropshire. Wind turbines and solar panels will provide the restaurant’s power. The building is clad with recycled computer equipment and old household goods and insulated with British sheep’s wool.
 
 Indeed, this restaurant is the first in the UK to be verified by the UK Green Building Council as producing net-zero carbon emissions during its construction. 

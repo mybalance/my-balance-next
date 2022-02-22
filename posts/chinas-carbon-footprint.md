@@ -6,7 +6,6 @@ subheading: "China is the global leader in carbon emissions, and without change 
 cover_image: "/assets/img/newsfeed/china_header.jpg"  
 tags: ["china", "footprint", "global"]
 ---
-
 In the global race to net-zero carbon emissions, there is really only one major player. China is responsible for over a quarter of the world’s carbon emissions. 
 
 This country of over 1.4 billion people produces roughly 2777 million tonnes of carbon each year. The next highest producer, the USA, produces roughly 1442 million tonnes of carbon each year. India, the world’s third highest producer, produces 714 millions tonnes each year.  

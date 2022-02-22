@@ -6,7 +6,6 @@ subheading: "We've had three days of events and negotiations in Glasgow; what po
 cover_image: "/assets/img/newsfeed/policy_header.png"  
 tags: ["cop26", "policy", "glasgow"]
 ---
-
 COP26 is in full swing over in Glasgow, and we’ve already seen a couple of interesting policy proposals from the event. 
 
 The UK Chancellor, Rishi Sunak, announced yesterday that the Treasury would oblige UK listed companies and financial institutions to show how they will hit net-zero targets. 
