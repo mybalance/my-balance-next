@@ -32,7 +32,7 @@ export const generateRSSFeed = (articles) => {
             title: post.frontmatter.title,
             id: url,
             link: url,
-            description: post.frontmatter.description,
+            description: post.frontmatter.subheading,
             content: post.content,
             author: [{ name: post.frontmatter.author }],
             date: new Date(post.frontmatter.date),

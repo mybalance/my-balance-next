@@ -4,7 +4,7 @@
         <title>MyBalance Newsfeed</title>
         <link>https://mybalance.earth</link>
         <description></description>
-        <lastBuildDate>Tue, 22 Feb 2022 08:22:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Feb 2022 08:28:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -65,6 +65,7 @@ And, above all, don’t panic.]]></content:encoded>
             <link>https://mybalance.earth/blog/farming-outside-the-eu</link>
             <guid>https://mybalance.earth/blog/farming-outside-the-eu</guid>
             <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Change coming to subsidy for farming as the UK leaves the European Union]]></description>
             <content:encoded><![CDATA[Since leaving the EU, the UK is no longer subject to the Common Agricultural Policy. The CAP is a broad range of rules and directives that governs farming in the EU. Most notably for British farmers, the CAP granted subsidies based on, broadly speaking, the amount of land that they farmed.
 
 UK farmers are no longer subject to the CAP, and, therefore, will not receive government subsidies.
@@ -112,6 +113,7 @@ How the proposed rules will play out politically and environmentally remains to 
             <link>https://mybalance.earth/blog/a-scorcher-down-under</link>
             <guid>https://mybalance.earth/blog/a-scorcher-down-under</guid>
             <pubDate>Fri, 14 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The EU reports that the past seven years have been the warmest on record and another record is set in the Pilbara.]]></description>
             <content:encoded><![CDATA[After the EU reports that the past seven years have been the hottest on record, our Australian friends equalled their hottest day on record, a scorching 50.7 degrees celsius. 
 
 The record was first set in 1962 in South Australia, and it was matched this week in Onslow, Western Australia, way out in the Pilbara.  
@@ -156,6 +158,7 @@ And he’s very probably correct. ]]></content:encoded>
             <link>https://mybalance.earth/blog/innovation-in-the-skies</link>
             <guid>https://mybalance.earth/blog/innovation-in-the-skies</guid>
             <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Danes, and many other European countries, are looking to aviation to help bring down their carbon footprints.]]></description>
             <content:encoded><![CDATA[The Prime Minister of Denmark, Mette Frederiksen, recently announced that her government would make domestic flights fossil fuel free by 2030. 
 
 The goal, declared in Frederiksen’s New Year address, is a difficult one. The PM admitted that the technology required to meet such a lofty ambition was not currently available.
@@ -198,6 +201,7 @@ Clearly, most of the rest of the world agrees. ]]></content:encoded>
             <link>https://mybalance.earth/blog/deforestation-and-the-kuznets-curve</link>
             <guid>https://mybalance.earth/blog/deforestation-and-the-kuznets-curve</guid>
             <pubDate>Fri, 24 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[While the planet is losing forest cover year on year, the picture isn't as bad as it might seem.]]></description>
             <content:encoded><![CDATA[As countries become richer, both politicians and the public tend to care more about the environment. 
 
 So goes the economic theory known as the Kuznets curve. Named for the economist Simon Kuznets, the Kuznets curve, when applied to the environment, states that as a country begins to develop economically, the environment will worsen, but, once a threshold has been reached, the environment will begin to drastically improve.
@@ -244,6 +248,7 @@ Merry Christmas!]]></content:encoded>
             <link>https://mybalance.earth/blog/rising-temperatures-in-the-arctic-and-the-antarctic</link>
             <guid>https://mybalance.earth/blog/rising-temperatures-in-the-arctic-and-the-antarctic</guid>
             <pubDate>Fri, 17 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[On opposite ends of the Earth, scientists measure the effects of warming on vast fields of ice.]]></description>
             <content:encoded><![CDATA[The Siberian town of Verkhoyansk, in Russia’s Sakha Republic, recently recorded the highest ever temperature in the Arctic, a balmy 38 degrees celsius.
 
 The World Meteorological Society verified the record earlier this week. The temperature itself was recorded last year on 20 June. 
@@ -287,6 +292,7 @@ But with ice continuing to thaw around both poles of the Earth, many climate act
             <link>https://mybalance.earth/blog/is-mcdonalds-going-net-zero</link>
             <guid>https://mybalance.earth/blog/is-mcdonalds-going-net-zero</guid>
             <pubDate>Fri, 10 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[McDonald's is building net-zero buildings in order to meet net-zero targets.]]></description>
             <content:encoded><![CDATA[McDonald’s has opened its first net-zero restaurant in Market Drayton, Shropshire. Wind turbines and solar panels will provide the restaurant’s power. The building is clad with recycled computer equipment and old household goods and insulated with British sheep’s wool.
 
 Indeed, this restaurant is the first in the UK to be verified by the UK Green Building Council as producing net-zero carbon emissions during its construction. 
@@ -325,6 +331,7 @@ But this new restaurant will be seen as a step in the right direction by many. M
             <link>https://mybalance.earth/blog/the-latest-climate-change-committee-report</link>
             <guid>https://mybalance.earth/blog/the-latest-climate-change-committee-report</guid>
             <pubDate>Fri, 03 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The latest report from the UK's Climate Change Committee was released on 2 December. Are the government's plans up to scratch?]]></description>
             <content:encoded><![CDATA[The UK’s Climate Change Committee, the CCC, has stated that the UK government must step up its plans if it is to reach 2030 emissions targets in a report released today.
 
 While the UK does have one of the most ambitious 2030 plans, the policies required are not yet in place to achieve the government’s goals. 
@@ -364,6 +371,7 @@ As with much of the promises made at COP26, only time will tell if world leaders
             <link>https://mybalance.earth/blog/what-to-make-of-cop26</link>
             <guid>https://mybalance.earth/blog/what-to-make-of-cop26</guid>
             <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Now that the conference is over, what do the experts make of what happened?]]></description>
             <content:encoded><![CDATA[What has happened in the low-carbon world since COP26? While the conference yielded some promising agreements -- from agreements on deforestation to methane reduction -- there are nonetheless significant hurdles that must be overcome if the globe is going to keep warming to manageable levels.  
 
 Indeed, scientists who recently spoke to the BBC were pessimistic that the politicians who made the promises in question would actually keep them. What’s more, they agreed that limiting warming to 1.5 degrees was not ambitious enough. 
@@ -396,6 +404,7 @@ It’s too soon to tell whether COP26 was a failure or a success. Given some tim
             <link>https://mybalance.earth/blog/the-us-and-china-agree-a-climate-deal</link>
             <guid>https://mybalance.earth/blog/the-us-and-china-agree-a-climate-deal</guid>
             <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The US and China have agreed to work more closely to reduce emissions.]]></description>
             <content:encoded><![CDATA[As COP26 comes to a close, we can end with some good news. America and China have agreed to increase their cooperation on climate issues. 
 
 Both states will “recall their firm commitment to work together” in order to bring warming down to manageable levels. 
@@ -441,6 +450,7 @@ Most world leaders know this, and the issue of climate is unlikely to go away an
             <link>https://mybalance.earth/blog/saudi-oil</link>
             <guid>https://mybalance.earth/blog/saudi-oil</guid>
             <pubDate>Wed, 10 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The oil-rich nation is a tricky customer when it comes to climate targets at COP26.]]></description>
             <content:encoded><![CDATA[Saudi Arabia has rejected calls to phase out the use of fossil fuels.
 
 This won’t be particularly surprising to many casual observers of global politics and climate negotiations. Over half of the Kingdom’s revenues come from oil exports. 
@@ -488,6 +498,7 @@ We’ll have to wait for the final accords, and negotiators know who is reluctan
             <link>https://mybalance.earth/blog/what-was-obamas-message-at-the-conference.md</link>
             <guid>https://mybalance.earth/blog/what-was-obamas-message-at-the-conference.md</guid>
             <pubDate>Mon, 08 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Former US President addressed the conference earlier today -- what was his message?]]></description>
             <content:encoded><![CDATA[As COP26 enters its second week, a variety of important figures will continue to address the delegates, including former secretary-general of the UN Ban Ki-Moon and former US President Barack Obama.
 
 Ki-Moon was straightforward in his analysis: “We have been failing the world and we have been failing the most vulnerable communities living on the front lines.”
@@ -524,6 +535,7 @@ And there is plenty more to do. World leaders must use the rest of their time at
             <link>https://mybalance.earth/blog/the-one-percent-and-the-ten-percent</link>
             <guid>https://mybalance.earth/blog/the-one-percent-and-the-ten-percent</guid>
             <pubDate>Fri, 05 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A new report details just how much carbon both the top one percent and the top ten percent produce -- and how much they should produce.]]></description>
             <content:encoded><![CDATA[Yesterday was the sixth day of COP26, and, so far, there are reasons to be relatively positive.
 
 As we discussed in a previous article, a variety of countries have agreed to terms that make a strong start in the fight to get warming down to 1.5 degrees. 
@@ -565,6 +577,7 @@ How, then, can we reach a sustainable, low-carbon future in the West while maint
             <link>https://mybalance.earth/blog/what-policies-have-we-seen-so-far-at-cop26</link>
             <guid>https://mybalance.earth/blog/what-policies-have-we-seen-so-far-at-cop26</guid>
             <pubDate>Wed, 03 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We've had three days of events and negotiations in Glasgow; what policies have we seen so far?]]></description>
             <content:encoded><![CDATA[COP26 is in full swing over in Glasgow, and we’ve already seen a couple of interesting policy proposals from the event. 
 
 The UK Chancellor, Rishi Sunak, announced yesterday that the Treasury would oblige UK listed companies and financial institutions to show how they will hit net-zero targets. 
@@ -608,6 +621,7 @@ But we’re moving in the right direction. ]]></content:encoded>
             <link>https://mybalance.earth/blog/optimism-and-pessimism-at-cop26</link>
             <guid>https://mybalance.earth/blog/optimism-and-pessimism-at-cop26</guid>
             <pubDate>Mon, 01 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[COP26 kicks off today in Glasgow, and the great and the good are there. Speeches at the opening event have struck both possitive and negative tones.]]></description>
             <content:encoded><![CDATA[2.7 degrees of warming by the end of this century would be a “climate catastrophe”, according to the UN. 
 
 But that’s exactly where we’re heading at the moment. 
@@ -642,6 +656,7 @@ Indeed, human action brings roughly 130,000 thousand people out of poverty every
             <link>https://mybalance.earth/blog/what-to-expect-from-cop26</link>
             <guid>https://mybalance.earth/blog/what-to-expect-from-cop26</guid>
             <pubDate>Thu, 28 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[COP26 begins this Sunday, and the eyes of the world will be on Glasgow. What can we expect from the conference?]]></description>
             <content:encoded><![CDATA[COP26 begins this Sunday, and the eyes of the world will be on the heads of state that arrive in Glasgow to discuss the many issues around climate change. 
 
 What can we expect from the conference? Put simply, it’s tricky to say. Are we likely to see harmonious cooperation between nations? Certainly not. But are we likely to see fracuous and entirely unhelpful arguments for two weeks? That’s unlikely as well.
@@ -680,6 +695,7 @@ This thorny issue is only one of the problems that will confront the delegates a
             <link>https://mybalance.earth/blog/global-tensions-amid-heightened-rhetoric</link>
             <guid>https://mybalance.earth/blog/global-tensions-amid-heightened-rhetoric</guid>
             <pubDate>Thu, 21 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[The words we use to describe climate change have become more urgent amid a predicted rise in global tensions due to potential disagreements on climate.]]></description>
             <content:encoded><![CDATA[While tensions exist between many different states across the globe, a new report from the National Intelligence Estimate on Climate Change, a joint effort from America’s 18 intelligence agencies, argues that the planet’s changing climate will add yet more fuel to the fire of international tensions.
 
 It’s not difficult to envisage a world with yet more uncooperative, combative leaders. The relationship between the US and China, two of the globe’s highest producers of carbon emissions, is already difficult for a wide variety of reasons, and yet more climate-related debate will only further pull at already-strained threads. 
@@ -713,6 +729,7 @@ In recent weeks, China has shown that it is willing to begin to cut back its vas
             <link>https://mybalance.earth/blog/chinas-carbon-footprint</link>
             <guid>https://mybalance.earth/blog/chinas-carbon-footprint</guid>
             <pubDate>Thu, 14 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[China is the global leader in carbon emissions, and without change from China, there's little that can practically be done against climate change. Will COP26 change things?]]></description>
             <content:encoded><![CDATA[In the global race to net-zero carbon emissions, there is really only one major player. China is responsible for over a quarter of the world’s carbon emissions. 
 
 This country of over 1.4 billion people produces roughly 2777 million tonnes of carbon each year. The next highest producer, the USA, produces roughly 1442 million tonnes of carbon each year. India, the world’s third highest producer, produces 714 millions tonnes each year.  
@@ -750,6 +767,7 @@ Reducing the carbon footprint of a country as vast and complex as China will not
             <link>https://mybalance.earth/blog/the-switch-to-electric-cars</link>
             <guid>https://mybalance.earth/blog/the-switch-to-electric-cars</guid>
             <pubDate>Thu, 07 Oct 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[The motoring world is heading towards electric cars. How will these vehicles change the way we travel and what infrastructure is required?]]></description>
             <content:encoded><![CDATA[Electric cars are the future of motoring. In the UK, in thirty years, probably less, petrol and diesel cars will be seen as relics of a past age. 
 
 What’s more, a joint study from the universities of Exeter, Nijmegen, and Cambridge predicts that by 2050 one in two cars will be electric across the world. Such a change would decrease carbon emissions by roughly 1.5 gigatonnes per year. 
@@ -791,6 +809,7 @@ Electric cars are the future of motoring, but when exactly that future arrives i
             <link>https://mybalance.earth/blog/Thunberg-speaks-at-milan-climate-event</link>
             <guid>https://mybalance.earth/blog/Thunberg-speaks-at-milan-climate-event</guid>
             <pubDate>Thu, 30 Sep 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[Greta Thunberg speaks at the Youth 4 Climate event in Milan. Her message to world leaders? There's much more for everyone to do.]]></description>
             <content:encoded><![CDATA[While climate activist Greta Thunberg probably didn’t mean to reference Baddiel and Skinner’s classic football anthem, she nonetheless referred to political efforts to fight climate change as “30 years of blah, blah, blah” at a recent event in Milan.
 
 The Swede excoriated world leaders for their lack of action on climate change. Referring to net-zero commitments and the green economy, Thunberg said: “This is all we hear from our so-called leaders. Words that sound great but so far have not led to action. Our hopes and ambitions drown in their empty promises.”
@@ -832,6 +851,7 @@ It is clear that climate action remains important for many people around the wor
             <link>https://mybalance.earth/blog/what-is-cop26</link>
             <guid>https://mybalance.earth/blog/what-is-cop26</guid>
             <pubDate>Thu, 23 Sep 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[What is COP26 and what can the public expect from the event? COP26 will be attended by many of the world's foremore climate experts and advisors.]]></description>
             <content:encoded><![CDATA[The 26th Conference of the Parties, COP26, is an event attended by roughly 30,000 delegates from 197 countries across the world.
 
 These heads of state and climate experts will attempt to agree coordinated action to combat climate change.
@@ -867,6 +887,7 @@ But while Paris represented a significant step forward in the fight against clim
             <link>https://mybalance.earth/blog/deforestation-and-the-climate</link>
             <guid>https://mybalance.earth/blog/deforestation-and-the-climate</guid>
             <pubDate>Thu, 16 Sep 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[How does deforestation affect the climate? And what can be done about the state of the world's forests in the coming decades?]]></description>
             <content:encoded><![CDATA[Deforestation is an important factor in the planet’s warming climate.
 
 Since 1990, we have lost over 420 million hectares of forest, an area roughly the size of South Africa.
@@ -908,6 +929,7 @@ There is much to be done, of course, and we shouldn’t be complacent, but there
             <link>https://mybalance.earth/blog/climate-change-changes-animals</link>
             <guid>https://mybalance.earth/blog/climate-change-changes-animals</guid>
             <pubDate>Thu, 09 Sep 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[The warming of the planet can have serious effects on a variety of ecosystems. Which animals are affected and is there anything to be done?]]></description>
             <content:encoded><![CDATA[Since around the 1850s, the planet has warmed by roughly 1.5 degrees celsius. If the planet continues to warm, which it most likely will, we will see changes not only to the environment itself but also the animals that live in it. 
 
 Indeed, a recent study in the journal Trends in Ecology and Evolution discusses the change that the warming climate has on wildlife around the world. While climate change isn’t the only cause of these changes, it is certainly a piece of the puzzle.
@@ -940,6 +962,7 @@ This research goes to show that, while our species has had negative effects on t
             <link>https://mybalance.earth/blog/why-is-flying-so-bad-for-the-environment</link>
             <guid>https://mybalance.earth/blog/why-is-flying-so-bad-for-the-environment</guid>
             <pubDate>Thu, 26 Aug 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[Flying has significant effects on the environment. Why is this the case and what can we do about it?]]></description>
             <content:encoded><![CDATA[While once only available to the rich, over the past thirty years or so flying has become an affordable travel option for everyone.
 
 The coronavirus pandemic has -- and continues to -- shake up the industry, but flights still remain a reasonable choice when it comes to price. 
@@ -985,6 +1008,7 @@ Very few people expect us to stop flying altogether, but it’s reasonable to ta
             <link>https://mybalance.earth/blog/the-uks-heatwave-and-climate-change</link>
             <guid>https://mybalance.earth/blog/the-uks-heatwave-and-climate-change</guid>
             <pubDate>Sun, 25 Jul 2021 23:00:00 GMT</pubDate>
+            <description><![CDATA[What does the UK's current heatwave tell us about the climate? And how can we prepare our homes and offices to be more sustainable over the coming years?]]></description>
             <content:encoded><![CDATA[Over the past couple of weeks we’ve experienced some absolutely baking heat here in the UK. And since most of us don’t have air conditioning units in our homes, there has been little respite from the often overwhelming weather.
 
 While air conditioning isn’t required for most of the year, we Brits can surely appreciate why most of our American friends live in air conditioned homes.
