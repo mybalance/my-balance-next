@@ -34,7 +34,7 @@ export const generateRSSFeed = (articles) => {
             link: url,
             description: post.frontmatter.description,
             content: post.content,
-            author: [author],
+            author: [{ name: post.frontmatter.author }],
             date: new Date(post.frontmatter.date),
             image: `${baseUrl}${post.frontmatter.cover_image}`,
         });
