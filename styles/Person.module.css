@@ -74,23 +74,6 @@
   }  
 }
 
-.imageSquareRhys {
-  height: 18rem;
-  width: 18rem;
-  background-image: url('../public/assets/img/rhys_picture.jpg');
-  background-position: center;
-  background-size: cover;
-  border-radius: .75rem;
-  position: relative;  
-}
-
-@media (max-width: 1250px) {
-  .imageSquareRhys {
-    height: 15rem;
-    width: 15rem;
-  }  
-}
-
 .imageSquareSteve {
   height: 18rem;
   width: 18rem;

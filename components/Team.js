@@ -29,10 +29,6 @@ const Team = () => {
 						position="director"
 					/>
 					<Person
-						name="Rhys"
-						position="developer"
-					/>
-					<Person
 						name="Steve"
 						position="director"
 					/>

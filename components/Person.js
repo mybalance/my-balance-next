@@ -36,8 +36,6 @@ const Person = ({ name, position }) => {
 
   if (name == "Sam") {
     stylesVar = styles.imageSquareSam;
-  } else if (name == "Rhys") {
-    stylesVar = styles.imageSquareRhys;
   } else if (name == "Steve") {
     stylesVar = styles.imageSquareSteve;
   } else if (name == "Raj") {
