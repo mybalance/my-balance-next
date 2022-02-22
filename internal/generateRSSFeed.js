@@ -19,6 +19,7 @@ export const generateRSSFeed = (articles) => {
         language: 'en',
         feedLinks: {
             rss2: `${baseUrl}/blog/rss.xml`,
+            json1: `${baseUrl}/blog/feed.json`,
         },
         author,
     });
@@ -35,11 +36,13 @@ export const generateRSSFeed = (articles) => {
             content: post.content,
             author: [author],
             date: new Date(post.frontmatter.date),
+            image: `${baseUrl}${post.frontmatter.cover_image}`,
         });
     });
 
     // Write the RSS output to a public file
     fs.writeFileSync('public/blog/rss.xml', feed.rss2());
+    fs.writeFileSync('public/blog/feed.json', feed.json1());
 
-    console.log("\nWritten out RSS feed")
+    console.log("\nWritten out RSS feed, XML and JSON");
 };
