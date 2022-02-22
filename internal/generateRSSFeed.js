@@ -37,6 +37,7 @@ export const generateRSSFeed = (articles) => {
             author: [{ name: post.frontmatter.author }],
             date: new Date(post.frontmatter.date),
             image: `${baseUrl}${post.frontmatter.cover_image}`,
+            category: post.frontmatter.tags.map(tag => { return { name: tag } }),
         });
     });
 
@@ -44,5 +45,6 @@ export const generateRSSFeed = (articles) => {
     fs.writeFileSync('public/blog/rss.xml', feed.rss2());
     fs.writeFileSync('public/blog/feed.json', feed.json1());
 
+    console.log(feed.json1());
     console.log("\nWritten out RSS feed, XML and JSON");
 };
