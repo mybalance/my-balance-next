@@ -5,49 +5,49 @@ import styles from "../styles/navigation.module.css";
 
 const Navigation = () => {
 	const [size, setSize] = useState(0);
-       
-  useEffect(() => {
-    setSize(window.innerWidth);
-    const handleResize = () => {
-      setSize(window.innerWidth);
-    };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    }
-  }, []);
+
+	useEffect(() => {
+		setSize(window.innerWidth);
+		const handleResize = () => {
+			setSize(window.innerWidth);
+		};
+		window.addEventListener("resize", handleResize);
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		}
+	}, []);
 
 	const menu = {
 		open: `${styles.open}`,
-		closed: `${styles.closed}` 
+		closed: `${styles.closed}`
 	}
 
 	const background = {
 		on: `${styles.overlay}`,
-		off: `${styles.overlayHidden}`  
+		off: `${styles.overlayHidden}`
 	}
 
 	const [ham, setHam] = useState(menu.closed);
 	const [overlay, setOverlay] = useState(background.off)
 
 	const handleClick = () => {
-		setHam(ham == menu.open ? menu.closed : menu.open); 
+		setHam(ham == menu.open ? menu.closed : menu.open);
 		setOverlay(overlay == background.on ? background.off : background.on)
 	};
 
-	
-  return (
+
+	return (
 		<>
 			<Head>
 				{/* <link 
           href="https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@400;600&display=swap" 
           rel="stylesheet"
         /> */}
-				<link 
-          href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" 
-          rel="stylesheet">
-        </link>
-      </Head>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+					rel="stylesheet">
+				</link>
+			</Head>
 
 			{/* Main navbar */}
 			<navbar className={styles.navbar}>
@@ -73,7 +73,7 @@ const Navigation = () => {
 								<p className={styles.navItem}>Blog</p>
 							</Link>
 						</div>
-					:
+						:
 						<div className={styles.square} onClick={handleClick}>
 							<span className={ham}></span>
 							<span className={ham}></span>
@@ -83,7 +83,7 @@ const Navigation = () => {
 			</navbar>
 
 			{/* Overlay */}
-			<div className={overlay} onClick={handleClick}>
+			<div className={overlay === undefined ? background.off : overlay} onClick={handleClick}>
 				<div className={styles.overlayContainer}>
 					<Link href="/#home">
 						<h2 className={styles.overlayItem} onClick={handleClick}>Home</h2>
@@ -103,7 +103,7 @@ const Navigation = () => {
 				</div>
 			</div>
 		</>
-  )
+	)
 }
 
 export default Navigation;
